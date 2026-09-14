@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Академия Комитета национальной безопасности",
+    "slug": "university-79-lgj39",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-79-lgj39/main"
+  },
+  {
+    "name": "ALT Университет имени Мухамеджана Тынышпаева",
+    "slug": "university-32-nve1u",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-32-nve1u/main"
+  },
+  {
+    "name": "Академия гражданской авиации",
+    "slug": "university-29-ya347",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-29-ya347/main"
+  },
+  {
+    "name": "Алматинский технологический университет",
+    "slug": "university-36-4gmej",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-36-4gmej/main"
+  },
+  {
+    "name": "Жезқазған университеті",
+    "slug": "zhiezk-azg-an-univiersitieti-truhe",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/zhiezk-azg-an-univiersitieti-truhe/main"
+  },
+  {
+    "name": "Казахский университет международных отношений и мировых языков имени Абылай хана",
+    "slug": "university-73-l2yhl",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-73-l2yhl/main"
+  },
+  {
+    "name": "Казахский университет технологии и бизнеса",
+    "slug": "university-33-2pjqp",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-33-2pjqp/main"
+  },
+  {
+    "name": "Казахстанско-Британский технический университет",
+    "slug": "university-76-7clyx",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-76-7clyx/main"
+  },
+  {
+    "name": "Международный университет информационных технологий",
+    "slug": "university-39-thvlc",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-39-thvlc/main"
+  },
+  {
+    "name": "Maqsut Narikbayev University",
+    "slug": "university-65-9ay6a",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-65-9ay6a/main"
+  },
+  {
+    "name": "Южно-Казахстанская медицинская академия",
+    "slug": "university-62-qpv4a",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-62-qpv4a/main"
+  },
+  {
+    "name": "Гуманитарно-техническая академия",
+    "slug": "gumanitarno-tekhnicheskaia-akademiia-bnox8",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/gumanitarno-tekhnicheskaia-akademiia-bnox8/main"
+  },
+  {
+    "name": "Египетский университет исламской культуры «Нур-Мубарак»",
+    "slug": "egipetskii-universitet-islamskoi-kul-tury-nur-mubarak-t77p1",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/egipetskii-universitet-islamskoi-kul-tury-nur-mubarak-t77p1/main"
+  },
+  {
+    "name": "Академия физической культуры и массового спорта",
+    "slug": "akademiia-fizicheskoi-kul-tury-i-massovogo-sporta-quy1l",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/akademiia-fizicheskoi-kul-tury-i-massovogo-sporta-quy1l/main"
+  },
+  {
+    "name": "Казахстанский медицинский университет «ВШОЗ»",
+    "slug": "kazakhstanskii-meditsinskii-universitet-vshoz-4dqmm",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhstanskii-meditsinskii-universitet-vshoz-4dqmm/main"
+  },
+  {
+    "name": "Кызылординский открытый университет",
+    "slug": "kyzylordinskii-otkrytyi-univiersitiet-syvtd",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kyzylordinskii-otkrytyi-univiersitiet-syvtd/main"
+  },
+  {
+    "name": "Кызылординский университет «Болашак»",
+    "slug": "university-92-tbdek",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-92-tbdek/main"
+  },
+  {
+    "name": "Университет Нархоз",
+    "slug": "university-58-ij8du",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-58-ij8du/main"
+  },
+  {
+    "name": "Жұбанов университеті",
+    "slug": "zhu-banov-univiersitieti-dekcc",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/zhu-banov-univiersitieti-dekcc/main"
+  },
+  {
+    "name": "Алматинский университет энергетики и связи имени Г.Даукеева",
+    "slug": "university-72-lf7g4",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-72-lf7g4/main"
+  },
+  {
+    "name": "Алтынсарин институты",
+    "slug": "altynsarin-instituty-eynb5",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/altynsarin-instituty-eynb5/main"
+  },
+  {
+    "name": "Atyrau University",
+    "slug": "atyrau-univiersitieti-y06q0",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/atyrau-univiersitieti-y06q0/main"
+  },
+  {
+    "name": "Атырау мұнай және газ университеті",
+    "slug": "atyrau-mu-nai-zh-nie-ghaz-univiersitieti-leyi6",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/atyrau-mu-nai-zh-nie-ghaz-univiersitieti-leyi6/main"
+  },
+  {
+    "name": "Шығыс Қазақстан техникалық университеті",
+    "slug": "shyg-ys-k-azak-stan-tiekhnikalyk-univiersitieti-qngpo",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/shyg-ys-k-azak-stan-tiekhnikalyk-univiersitieti-qngpo/main"
+  },
+  {
+    "name": "Аманжолов университеті",
+    "slug": "amanzholov-univiersitieti-nlmon",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/amanzholov-univiersitieti-nlmon/main"
+  },
+  {
+    "name": "Евразийский национальный университет имени Л.Н. Гумилева",
+    "slug": "university-63-a5anc",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-63-a5anc/main"
+  },
+  {
+    "name": "Жетісу университеті",
+    "slug": "zhietisu-univiersitieti-xi1wb",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/zhietisu-univiersitieti-xi1wb/main"
+  },
+  {
+    "name": "Западно-Казахстанский аграрно-технический университет имени Жангир хана",
+    "slug": "university-81-5x51e",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-81-5x51e/main"
+  },
+  {
+    "name": "Западно-Казахстанский медицинский университет имени М.Оспанова",
+    "slug": "university-87-z74ak",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-87-z74ak/main"
+  },
+  {
+    "name": "Махамбет университеті",
+    "slug": "makhambiet-univiersitieti-7rt9w",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/makhambiet-univiersitieti-7rt9w/main"
+  },
+  {
+    "name": "Казахская академия спорта и туризма",
+    "slug": "university-43-86u0a",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-43-86u0a/main"
+  },
+  {
+    "name": "Казахский агротехнический исследовательский университет имени С.Сейфуллина",
+    "slug": "university-64-q0pdr",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-64-q0pdr/main"
+  },
+  {
+    "name": "Казахский национальный аграрный исследовательский университет",
+    "slug": "university-37-l29f5",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-37-l29f5/main"
+  },
+  {
+    "name": "Қазақ ұлттық қыздар педагогикалық университеті",
+    "slug": "k-yzdar-piedaghoghikalyk-univiersitieti-heo9k",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/k-yzdar-piedaghoghikalyk-univiersitieti-heo9k/main"
+  },
+  {
+    "name": "Казахский национальный исследовательский технический университет имени К.И. Сатпаева",
+    "slug": "university-68-qyt2i",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-68-qyt2i/main"
+  },
+  {
+    "name": "Абай университеті",
+    "slug": "abai-univiersitieti-egebh",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/abai-univiersitieti-egebh/main"
+  },
+  {
+    "name": "Казахский национальный университет водного хозяйства и ирригации",
+    "slug": "kazakhskii-natsional-nyi-universitet-vodnogo-khoziaistva-i-irrigatsii-5eent",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhskii-natsional-nyi-universitet-vodnogo-khoziaistva-i-irrigatsii-5eent/main"
+  },
+  {
+    "name": "Казахский национальный университет имени аль-Фараби",
+    "slug": "university-34-ua3ul",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-34-ua3ul/main"
+  },
+  {
+    "name": "Қарағанды индустриялық университеті",
+    "slug": "k-arag-andy-industriialyk-univiersitieti-7hrn9",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/k-arag-andy-industriialyk-univiersitieti-7hrn9/main"
+  },
+  {
+    "name": "Бөкетов атындағы Қарағанды университеті",
+    "slug": "bokietov-atyndag-y-k-arag-andy-univiersitieti-5jrow",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/bokietov-atyndag-y-k-arag-andy-univiersitieti-5jrow/main"
+  },
+  {
+    "name": "Карагандинский технический университет имени А. Сагинова",
+    "slug": "university-85-bq7yf",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-85-bq7yf/main"
+  },
+  {
+    "name": "Есенов университеті",
+    "slug": "iesienov-univiersitieti-0thvu",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/iesienov-univiersitieti-0thvu/main"
+  },
+  {
+    "name": "Уәлиханов университеті",
+    "slug": "u-likhanov-univiersitieti-exrft",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/u-likhanov-univiersitieti-exrft/main"
+  },
+  {
+    "name": "Байтұрсынов университеті",
+    "slug": "baitu-rsynov-univiersitieti-utxgg",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/baitu-rsynov-univiersitieti-utxgg/main"
+  },
+  {
+    "name": "Қорқыт Ата университеті",
+    "slug": "k-ork-yt-ata-univiersitieti-vurin",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/k-ork-yt-ata-univiersitieti-vurin/main"
+  },
+  {
+    "name": "Медицинский университет Астана",
+    "slug": "university-27-nhmjl",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-27-nhmjl/main"
+  },
+  {
+    "name": "Медицинский университет Караганды",
+    "slug": "university-54-4ovhf",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-54-4ovhf/main"
+  },
+  {
+    "name": "Медицинский университет Семей",
+    "slug": "university-52-jns4s",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-52-jns4s/main"
+  },
+  {
+    "name": "Международный университет туризма и гостеприимства",
+    "slug": "university-56-n61n1",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-56-n61n1/main"
+  },
+  {
+    "name": "Марғұлан университеті",
+    "slug": "marg-u-lan-univiersitieti-r2oui",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/marg-u-lan-univiersitieti-r2oui/main"
+  },
+  {
+    "name": "Рудненский индустриальный университет",
+    "slug": "rudnyi-industrialdyk-instituty-ocrec",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/rudnyi-industrialdyk-instituty-ocrec/main"
+  },
+  {
+    "name": "Қозыбаев университеті",
+    "slug": "k-ozybaiev-univiersitieti-lspxe",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/k-ozybaiev-univiersitieti-lspxe/main"
+  },
+  {
+    "name": "Дулати университеті",
+    "slug": "dulati-univiersitieti-asl8z",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/dulati-univiersitieti-asl8z/main"
+  },
+  {
+    "name": "С. Торайғыров атындағы университет",
+    "slug": "s-toraig-yrov-atyndag-y-univiersitiet-0ndxl",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/s-toraig-yrov-atyndag-y-univiersitiet-0ndxl/main"
+  },
+  {
+    "name": "Шәкәрім университеті",
+    "slug": "sh-k-rim-univiersitieti-p7kcn",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/sh-k-rim-univiersitieti-p7kcn/main"
+  },
+  {
+    "name": "Әуезов университеті",
+    "slug": "uiezov-univiersitieti-ueu0q",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/uiezov-univiersitieti-ueu0q/main"
+  },
+  {
+    "name": "ЮКПУ имени Жанибекова",
+    "slug": "ok-mpu-zr0fp",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/ok-mpu-zr0fp/main"
+  },
+  {
+    "name": "Казахстанский университет инновационных и телекоммуникационных систем",
+    "slug": "university-48-c6mni",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-48-c6mni/main"
+  },
+  {
+    "name": "Казахстанско-Российский медицинский университет",
+    "slug": "university-40-b2xba",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-40-b2xba/main"
+  },
+  {
+    "name": "Казахская национальная академия искусств имени Темирбека Жургенова",
+    "slug": "kazakhskaia-natsional-naia-akademiia-iskusstv-imeni-temirbeka-zhurgenova-fbtcd",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhskaia-natsional-naia-akademiia-iskusstv-imeni-temirbeka-zhurgenova-fbtcd/main"
+  },
+  {
+    "name": "Казахская национальная консерватория имени Курмангазы",
+    "slug": "kazakhskaia-natsional-naia-konservatoriia-imeni-kurmangazy-dtxb3",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhskaia-natsional-naia-konservatoriia-imeni-kurmangazy-dtxb3/main"
+  },
+  {
+    "name": "Казахский национальный университет искусств имени Күләш Байсейтовой",
+    "slug": "kazakhskii-natsional-nyi-universitet-iskusstv-imeni-kul-sh-baiseitovoi-z11lk",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhskii-natsional-nyi-universitet-iskusstv-imeni-kul-sh-baiseitovoi-z11lk/main"
+  },
+  {
+    "name": "Казахская национальная академия хореографии",
+    "slug": "kazakhskaia-natsional-naia-akademiia-khoreografii-d833v",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhskaia-natsional-naia-akademiia-khoreografii-d833v/main"
+  },
+  {
+    "name": "Astana IT University",
+    "slug": "university-26-y4lco",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-26-y4lco/main"
+  },
+  {
+    "name": "Евразийский технологический университет",
+    "slug": "university-44-tvo3n",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-44-tvo3n/main"
+  },
+  {
+    "name": "Инновационный Евразийский университет",
+    "slug": "innovatsionnyi-evraziiskii-universitet-pebtp",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/innovatsionnyi-evraziiskii-universitet-pebtp/main"
+  },
+  {
+    "name": "Казахстанско-Американский свободный университет",
+    "slug": "university-50-fx3fc",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-50-fx3fc/main"
+  },
+  {
+    "name": "Международная образовательная корпорация",
+    "slug": "university-41-cxob3",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-41-cxob3/main"
+  },
+  {
+    "name": "Международный инженерно-технологический университет",
+    "slug": "university-47-1u55d",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-47-1u55d/main"
+  },
+  {
+    "name": "Международный университет Астана",
+    "slug": "university-30-i0v3y",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-30-i0v3y/main"
+  },
+  {
+    "name": "Университет имени Ж. Ташенева",
+    "slug": "university-89-3koxt",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-89-3koxt/main"
+  },
+  {
+    "name": "Университет Кунаева",
+    "slug": "university-42-0c7zy",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-42-0c7zy/main"
+  },
+  {
+    "name": "Университет международного бизнеса имени К.Сагадиева",
+    "slug": "university-78-9ooq7",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-78-9ooq7/main"
+  },
+  {
+    "name": "Центрально-Азиатский инновационный университет",
+    "slug": "university-59-ptgri",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-59-ptgri/main"
+  },
+  {
+    "name": "Алматы Менеджмент Университет",
+    "slug": "university-38-x9ks0",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-38-x9ks0/main"
+  },
+  {
+    "name": "Esil University",
+    "slug": "university-28-lbjrq",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-28-lbjrq/main"
+  },
+  {
+    "name": "Q University",
+    "slug": "university-70-4o9bh",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-70-4o9bh/main"
+  },
+  {
+    "name": "SDU University",
+    "slug": "university-53-r1hqx",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-53-r1hqx/main"
+  },
+  {
+    "name": "Алматинский гуманитарно-экономический университет",
+    "slug": "university-35-g07p1",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-35-g07p1/main"
+  },
+  {
+    "name": "Екибастузский инженерно-технический институт имени К.И. Сатпаева",
+    "slug": "university-83-gg93a",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-83-gg93a/main"
+  },
+  {
+    "name": "Казахский автомобильно-дорожный институт имени Л.Б. Гончарова",
+    "slug": "university-74-dchtr",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-74-dchtr/main"
+  },
+  {
+    "name": "Кокшетауский университет имени А. Мырзахметова",
+    "slug": "university-90-6v2x7",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-90-6v2x7/main"
+  },
+  {
+    "name": "Костанайский социально-технический университет имени академика Зулхарнай Алдамжар",
+    "slug": "university-49-oqys",
+    "url": "    https://www.coursera.org/o/qazaqstan/admin/programs/university-49-oqysz/main"
+  },
+  {
+    "name": "Международный казахско-турецкий университет имени Х.А.Ясави",
+    "slug": "university-31-93z0y",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-31-93z0y/main"
+  },
+  {
+    "name": "Международный Таразский инновационный институт имени Ш.Муртазы",
+    "slug": "university-91-vri4t",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-91-vri4t/main"
+  },
+  {
+    "name": "Региональный инновационный университет",
+    "slug": "regional-nyi-innovatsionnyi-universitet-rl2uc",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/regional-nyi-innovatsionnyi-universitet-rl2uc/main"
+  },
+  {
+    "name": "Университет «Мирас»",
+    "slug": "university-88-rbl73",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-88-rbl73/main"
+  },
+  {
+    "name": "Университет «Туран»",
+    "slug": "university-71-rurjh",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-71-rurjh/main"
+  },
+  {
+    "name": "Университет «Туран-Астана»",
+    "slug": "universitet-turan-astana-18etl",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/universitet-turan-astana-18etl/main"
+  },
+  {
+    "name": "Университет дружбы народов имени академика А. Куатбекова",
+    "slug": "university-55-66sgz",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-55-66sgz/main"
+  },
+  {
+    "name": "Евразийский гуманитарный институт имени А.Кусаинова",
+    "slug": "university-67-nkkdn",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-67-nkkdn/main"
+  },
+  {
+    "name": "Alikhan Bokeikhan University",
+    "slug": "university-84-4nxq3",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-84-4nxq3/main"
+  },
+  {
+    "name": "Казахстанско-Немецкий университет в Алматы",
+    "slug": "kazakhstansko-nemetskii-universitet-v-almaty-0idh3",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/kazakhstansko-nemetskii-universitet-v-almaty-0idh3/main"
+  },
+  {
+    "name": "Каспийский общественный университет",
+    "slug": "university-75-94ijv",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-75-94ijv/main"
+  },
+  {
+    "name": "Западно-Казахстанский инновационно-технологический университет",
+    "slug": "university-46-ez4y6",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-46-ez4y6/main"
+  },
+  {
+    "name": "Академия «Bolashaq»",
+    "slug": "university-86-1coo0",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-86-1coo0/main"
+  },
+  {
+    "name": "Карагандинский университет Казпотребсоюза",
+    "slug": "university-51-ttlpx",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-51-ttlpx/main"
+  },
+  {
+    "name": "Костанайский инженерно-экономический университет имени М. Дулатова",
+    "slug": "university-82-fnl3e",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-82-fnl3e/main"
+  },
+  {
+    "name": "Центрально-Казахстанская академия",
+    "slug": "university-60-9it16",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-60-9it16/main"
+  },
+  {
+    "name": "Шымкентский университет",
+    "slug": "university-61-p8pzl",
+    "url": "https://www.coursera.org/o/qazaqstan/admin/programs/university-61-p8pzl/main"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "coursera-bulk-course-adder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bulk-add one Coursera course to the same collection across many Enterprise programs.",
+  "scripts": {
+    "login": "node login.js",
+    "add": "node add-course.js",
+    "audit": "node audit-courses.js"
+  },
+  "dependencies": {
+    "playwright": "latest",
+    "read-excel-file": "^9.3.10",
+    "write-excel-file": "^4.1.1"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+.playwright-profile/
+errors/*.png
+reports/*.csv

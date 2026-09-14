@@ -1,0 +1,112 @@
+﻿Запуск: 10.09.2026, 12:27:48
+Команда: node add-course.js 
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-09-10_12-27-48-837
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-09-10_12-27-48-837\console.txt
+Курс: Аспан әлемін танудың алғашқы қадамдары
+Коллекция: Қазақстандық университеттердің курстары / Курсы казахстанских вузов
+Программ к обработке: 100
+Режим: ДОБАВЛЕНИЕ
+[1/100] Академия Комитета национальной безопасности ... ERROR: Не найдена кнопка Search / «Поиск» | курсов в коллекции: 40
+[2/100] ALT Университет имени Мухамеджана Тынышпаева ... ERROR: Не найдена кнопка Search / «Поиск» | курсов в коллекции: 40
+[3/100] Академия гражданской авиации ... ERROR: Поле поиска получило неверное значение: Аспанәлемін танудың алғашқы қадамдары | курсов в коллекции: 40
+[4/100] Алматинский технологический университет ... ERROR: Не найдена кнопка Search / «Поиск» | курсов в коллекции: 40
+[5/100] Жезқазған университеті ... ERROR: page.waitForTimeout: Target page, context or browser has been closed
+[6/100] Казахский университет международных отношений и мировых языков имени Абылай хана ... ERROR: page.goto: Target page, context or browser has been closed
+[7/100] Казахский университет технологии и бизнеса ... ERROR: page.goto: Target page, context or browser has been closed
+[8/100] Казахстанско-Британский технический университет ... ERROR: page.goto: Target page, context or browser has been closed
+[9/100] Международный университет информационных технологий ... ERROR: page.goto: Target page, context or browser has been closed
+[10/100] Maqsut Narikbayev University ... ERROR: page.goto: Target page, context or browser has been closed
+[11/100] Южно-Казахстанская медицинская академия ... ERROR: page.goto: Target page, context or browser has been closed
+[12/100] Гуманитарно-техническая академия ... ERROR: page.goto: Target page, context or browser has been closed
+[13/100] Египетский университет исламской культуры «Нур-Мубарак» ... ERROR: page.goto: Target page, context or browser has been closed
+[14/100] Академия физической культуры и массового спорта ... ERROR: page.goto: Target page, context or browser has been closed
+[15/100] Казахстанский медицинский университет «ВШОЗ» ... ERROR: page.goto: Target page, context or browser has been closed
+[16/100] Кызылординский открытый университет ... ERROR: page.goto: Target page, context or browser has been closed
+[17/100] Кызылординский университет «Болашак» ... ERROR: page.goto: Target page, context or browser has been closed
+[18/100] Университет Нархоз ... ERROR: page.goto: Target page, context or browser has been closed
+[19/100] Жұбанов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[20/100] Алматинский университет энергетики и связи имени Г.Даукеева ... ERROR: page.goto: Target page, context or browser has been closed
+[21/100] Алтынсарин институты ... ERROR: page.goto: Target page, context or browser has been closed
+[22/100] Atyrau University ... ERROR: page.goto: Target page, context or browser has been closed
+[23/100] Атырау мұнай және газ университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[24/100] Шығыс Қазақстан техникалық университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[25/100] Аманжолов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[26/100] Евразийский национальный университет имени Л.Н. Гумилева ... ERROR: page.goto: Target page, context or browser has been closed
+[27/100] Жетісу университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[28/100] Западно-Казахстанский аграрно-технический университет имени Жангир хана ... ERROR: page.goto: Target page, context or browser has been closed
+[29/100] Западно-Казахстанский медицинский университет имени М.Оспанова ... ERROR: page.goto: Target page, context or browser has been closed
+[30/100] Махамбет университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[31/100] Казахская академия спорта и туризма ... ERROR: page.goto: Target page, context or browser has been closed
+[32/100] Казахский агротехнический исследовательский университет имени С.Сейфуллина ... ERROR: page.goto: Target page, context or browser has been closed
+[33/100] Казахский национальный аграрный исследовательский университет ... ERROR: page.goto: Target page, context or browser has been closed
+[34/100] Қазақ ұлттық қыздар педагогикалық университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[35/100] Казахский национальный исследовательский технический университет имени К.И. Сатпаева ... ERROR: page.goto: Target page, context or browser has been closed
+[36/100] Абай университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[37/100] Казахский национальный университет водного хозяйства и ирригации ... ERROR: page.goto: Target page, context or browser has been closed
+[38/100] Казахский национальный университет имени аль-Фараби ... ERROR: page.goto: Target page, context or browser has been closed
+[39/100] Қарағанды индустриялық университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[40/100] Бөкетов атындағы Қарағанды университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[41/100] Карагандинский технический университет имени А. Сагинова ... ERROR: page.goto: Target page, context or browser has been closed
+[42/100] Есенов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[43/100] Уәлиханов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[44/100] Байтұрсынов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[45/100] Қорқыт Ата университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[46/100] Медицинский университет Астана ... ERROR: page.goto: Target page, context or browser has been closed
+[47/100] Медицинский университет Караганды ... ERROR: page.goto: Target page, context or browser has been closed
+[48/100] Медицинский университет Семей ... ERROR: page.goto: Target page, context or browser has been closed
+[49/100] Международный университет туризма и гостеприимства ... ERROR: page.goto: Target page, context or browser has been closed
+[50/100] Марғұлан университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[51/100] Рудненский индустриальный университет ... ERROR: page.goto: Target page, context or browser has been closed
+[52/100] Қозыбаев университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[53/100] Дулати университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[54/100] С. Торайғыров атындағы университет ... ERROR: page.goto: Target page, context or browser has been closed
+[55/100] Шәкәрім университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[56/100] Әуезов университеті ... ERROR: page.goto: Target page, context or browser has been closed
+[57/100] ЮКПУ имени Жанибекова ... ERROR: page.goto: Target page, context or browser has been closed
+[58/100] Казахстанский университет инновационных и телекоммуникационных систем ... ERROR: page.goto: Target page, context or browser has been closed
+[59/100] Казахстанско-Российский медицинский университет ... ERROR: page.goto: Target page, context or browser has been closed
+[60/100] Казахская национальная академия искусств имени Темирбека Жургенова ... ERROR: page.goto: Target page, context or browser has been closed
+[61/100] Казахская национальная консерватория имени Курмангазы ... ERROR: page.goto: Target page, context or browser has been closed
+[62/100] Казахский национальный университет искусств имени Күләш Байсейтовой ... ERROR: page.goto: Target page, context or browser has been closed
+[63/100] Казахская национальная академия хореографии ... ERROR: page.goto: Target page, context or browser has been closed
+[64/100] Astana IT University ... ERROR: page.goto: Target page, context or browser has been closed
+[65/100] Евразийский технологический университет ... ERROR: page.goto: Target page, context or browser has been closed
+[66/100] Инновационный Евразийский университет ... ERROR: page.goto: Target page, context or browser has been closed
+[67/100] Казахстанско-Американский свободный университет ... ERROR: page.goto: Target page, context or browser has been closed
+[68/100] Международная образовательная корпорация ... ERROR: page.goto: Target page, context or browser has been closed
+[69/100] Международный инженерно-технологический университет ... ERROR: page.goto: Target page, context or browser has been closed
+[70/100] Международный университет Астана ... ERROR: page.goto: Target page, context or browser has been closed
+[71/100] Университет имени Ж. Ташенева ... ERROR: page.goto: Target page, context or browser has been closed
+[72/100] Университет Кунаева ... ERROR: page.goto: Target page, context or browser has been closed
+[73/100] Университет международного бизнеса имени К.Сагадиева ... ERROR: page.goto: Target page, context or browser has been closed
+[74/100] Центрально-Азиатский инновационный университет ... ERROR: page.goto: Target page, context or browser has been closed
+[75/100] Алматы Менеджмент Университет ... ERROR: page.goto: Target page, context or browser has been closed
+[76/100] Esil University ... ERROR: page.goto: Target page, context or browser has been closed
+[77/100] Q University ... ERROR: page.goto: Target page, context or browser has been closed
+[78/100] SDU University ... ERROR: page.goto: Target page, context or browser has been closed
+[79/100] Алматинский гуманитарно-экономический университет ... ERROR: page.goto: Target page, context or browser has been closed
+[80/100] Екибастузский инженерно-технический институт имени К.И. Сатпаева ... ERROR: page.goto: Target page, context or browser has been closed
+[81/100] Казахский автомобильно-дорожный институт имени Л.Б. Гончарова ... ERROR: page.goto: Target page, context or browser has been closed
+[82/100] Кокшетауский университет имени А. Мырзахметова ... ERROR: page.goto: Target page, context or browser has been closed
+[83/100] Костанайский социально-технический университет имени академика Зулхарнай Алдамжар ... ERROR: page.goto: Target page, context or browser has been closed
+[84/100] Международный казахско-турецкий университет имени Х.А.Ясави ... ERROR: page.goto: Target page, context or browser has been closed
+[85/100] Международный Таразский инновационный институт имени Ш.Муртазы ... ERROR: page.goto: Target page, context or browser has been closed
+[86/100] Региональный инновационный университет ... ERROR: page.goto: Target page, context or browser has been closed
+[87/100] Университет «Мирас» ... ERROR: page.goto: Target page, context or browser has been closed
+[88/100] Университет «Туран» ... ERROR: page.goto: Target page, context or browser has been closed
+[89/100] Университет «Туран-Астана» ... ERROR: page.goto: Target page, context or browser has been closed
+[90/100] Университет дружбы народов имени академика А. Куатбекова ... ERROR: page.goto: Target page, context or browser has been closed
+[91/100] Евразийский гуманитарный институт имени А.Кусаинова ... ERROR: page.goto: Target page, context or browser has been closed
+[92/100] Alikhan Bokeikhan University ... ERROR: page.goto: Target page, context or browser has been closed
+[93/100] Казахстанско-Немецкий университет в Алматы ... ERROR: page.goto: Target page, context or browser has been closed
+[94/100] Каспийский общественный университет ... ERROR: page.goto: Target page, context or browser has been closed
+[95/100] Западно-Казахстанский инновационно-технологический университет ... ERROR: page.goto: Target page, context or browser has been closed
+[96/100] Академия «Bolashaq» ... ERROR: page.goto: Target page, context or browser has been closed
+[97/100] Карагандинский университет Казпотребсоюза ... ERROR: page.goto: Target page, context or browser has been closed
+[98/100] Костанайский инженерно-экономический университет имени М. Дулатова ... ERROR: page.goto: Target page, context or browser has been closed
+[99/100] Центрально-Казахстанская академия ... ERROR: page.goto: Target page, context or browser has been closed
+[100/100] Шымкентский университет ... ERROR: page.goto: Target page, context or browser has been closed
+
+Итог: { error: 100 }
+Отчет Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-09-10_12-27-48-837\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-09-10_12-27-48-837\console.txt

@@ -1,0 +1,13 @@
+﻿Запуск аудита: 20.08.2026, 16:18:37
+Эталон: C:\Users\123\Desktop\coursera-bulk-course-adder\All courses.xlsx
+Пар «курс + провайдер»: 36
+Коллекция: Қазақстандық университеттердің курстары / Курсы казахстанских вузов
+Программ к проверке: 1
+Режим: ТОЛЬКО ЧТЕНИЕ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\АУДИТ_2026-08-20_16-18-37-611
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\АУДИТ_2026-08-20_16-18-37-611\console.txt
+[1/1] Astana IT University ... mismatch | на странице: 36 | найдено: 36/36 | нет: 2 | лишних: 2 | неверный провайдер: 0
+
+Итог: { mismatch: 1 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\АУДИТ_2026-08-20_16-18-37-611\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\АУДИТ_2026-08-20_16-18-37-611\console.txt
