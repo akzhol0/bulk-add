@@ -44,6 +44,7 @@ test('parses collection creation command options', () => {
       file: 'source.xlsx',
       names: null,
       dryRun: true,
+      reorderOnly: false,
       limitCollections: 1,
     },
   );
@@ -54,9 +55,9 @@ test('parses collection creation command options', () => {
   );
 });
 
-test('requires a full-name override for a possibly truncated Excel sheet name', () => {
+test('uses an override when available and otherwise accepts a 31-character sheet name', () => {
   const truncated = '1234567890123456789012345678901';
-  assert.throws(() => resolveCollectionName(truncated), /collection-names\.json/);
+  assert.equal(resolveCollectionName(truncated), truncated);
   assert.equal(
     resolveCollectionName(truncated, { [truncated]: 'Полное название коллекции' }),
     'Полное название коллекции',

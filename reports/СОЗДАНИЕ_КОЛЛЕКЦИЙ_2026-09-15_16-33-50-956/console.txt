@@ -1,0 +1,227 @@
+﻿Запуск: 15.09.2026, 16:33:50
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Ташкентский государственный транспортный университет.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkentskii-gosudarstvennyi-transportnyi-universitet-program-8r91y/catalog/collections
+Коллекций: 19
+Курсов в Excel: 116
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\console.txt
+
+[1/19] Коллекция: Методология преподавания специа
+    [1/6] University Teaching ... selected (1)
+    [2/6] Foundations for Active Learning in STEM Courses ... selected (2)
+    [3/6] Teaching in University Science Laboratories (Developing Best Practice) ... selected (3)
+    [4/6] Assessment in Higher Education: Professional Development for Teachers ... selected (4)
+    [5/6] Learning Experience Design: Development and Evaluation ... selected (5)
+    [6/6] How to Create an Online Course ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[2/19] Коллекция: Системы автоматического управле
+    [1/7] Control Systems Analysis: Modeling of Dynamic Systems ... selected (1)
+    [2/7] Digital Signal Processing 1: Basic Concepts and Algorithms ... selected (2)
+    [3/7] Input Filter Design ... selected (3)
+    [4/7] Real-Time Mission-Critical Systems Design ... selected (4)
+    [5/7] Planning of Metro Rail Systems ... selected (5)
+    [6/7] Design Concepts in Metro Rails ... selected (6)
+    [7/7] Construction of Metro Rail Systems ... selected (7)
+    Подтверждено: 7/7 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[3/19] Коллекция: Трехмерное моделирование детале
+    [1/9] SOLIDWORKS Foundations: Sketching and Extrusion ... selected (1)
+    [2/9] SOLIDWORKS Feature Patterns and Sweeps ... selected (2)
+    [3/9] SOLIDWORKS Advanced Sketching and Reference Geometry ... selected (3)
+    [4/9] SOLIDWORKS Revolution and Cut Features ... selected (4)
+    [5/9] SOLIDWORKS Assemblies and Exam Level Part Modeling ... selected (5)
+    [6/9] Explore the Mechanical Designer Role ... selected (6)
+    [7/9] Design and Assemble an IC Engine Using SolidWorks ... selected (7)
+    [8/9] Design & Assemble a Multi-Utility Tool in SolidWorks ... selected (8)
+    [9/9] 3D Modeling for 3D Printing and Laser Cutting on Fusion 360 ... selected (9)
+    Подтверждено: 9/9 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[4/19] Коллекция: Электрические сети и системы
+    [1/9] Design of Transmission Line: Modelling and Performance ... selected (1)
+    [2/9] Electrical Power Distribution ... selected (2)
+    [3/9] Power System Modelling and Fault Analysis ... selected (3)
+    [4/9] Electric Power Systems ... selected (4)
+    [5/9] HVDC Transmission, Underground Cable & AC Power Distribution ... selected (5)
+    [6/9] MV Substation - An industrial approach (PART-A) ... selected (6)
+    [7/9] Power System Stability ... selected (7)
+    [8/9] From Traditional Grid to Smart Grid ... selected (8)
+    [9/9] Basics of Electrical Protection System ... selected (9)
+    Подтверждено: 9/9 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[5/19] Коллекция: Теоретические основы использова
+    [1/10] Photovoltaic Systems ... selected (1)
+    [2/10] Wind Energy ... selected (2)
+    [3/10] Renewable Power and Electricity Systems ... selected (3)
+    [4/10] Renewable Energy Futures ... selected (4)
+    [5/10] Renewable Energy Technology Fundamentals ... selected (5)
+    [6/10] Renewable Energy Projects ... selected (6)
+    [7/10] Next-Gen. Energy Storage - Battery and Hydrogen Technology ... selected (7)
+    [8/10] Solar Energy System Design ... selected (8)
+    [9/10] Exploring Renewable Energy Schemes ... selected (9)
+    [10/10] Applied Sustainability Engineering ... selected (10)
+    Подтверждено: 10/10 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[6/19] Коллекция: Альтернативные источники энерги
+    [1/10] Renewable Energy Futures ... selected (1)
+    [2/10] Renewable Energy Technology Fundamentals ... selected (2)
+    [3/10] Renewable Energy Projects ... selected (3)
+    [4/10] Renewable Power and Electricity Systems ... selected (4)
+    [5/10] Exploring Renewable Energy Schemes ... selected (5)
+    [6/10] Applied Sustainability Engineering ... selected (6)
+    [7/10] Hydrogen: Key Concepts and Use in Green Technologies ... selected (7)
+    [8/10] Planning of Hydropower Projects ... selected (8)
+    [9/10] Electric Power Systems ... selected (9)
+    [10/10] Next-Gen. Energy Storage - Battery and Hydrogen Technology ... selected (10)
+    Подтверждено: 10/10 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[7/19] Коллекция: Патентоведение, лицензирование
+    [1/5] Introduction to Intellectual Property ... selected (1)
+    [2/5] Patent Law ... selected (2)
+    [3/5] Intellectual Property ... selected (3)
+    [4/5] Intellectual Property for Entrepreneurs ... selected (4)
+    [5/5] Master ISO 9000: Analyze, Apply, and Achieve Certification ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[8/19] Коллекция: Инфраст-ра высокоскоростного эл
+    [1/8] Planning of Metro Rail Systems ... selected (1)
+    [2/8] Design Concepts in Metro Rails ... selected (2)
+    [3/8] Construction Practices in Metro Rails ... selected (3)
+    [4/8] Electric Power Systems ... selected (4)
+    [5/8] Introduction to Power Electronics ... selected (5)
+    [6/8] Electric Motor Modeling and Control ... selected (6)
+    [7/8] Converter Control ... selected (7)
+    [8/8] Powering the Future with Electrification ... selected (8)
+    Подтверждено: 8/8 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[9/19] Коллекция: Теория электрической тяги и тяг
+    [1/4] Electric Motor Modeling and Control ... selected (1)
+    [2/4] Introduction to Power Electronics ... selected (2)
+    [3/4] Converter Circuits ... selected (3)
+    [4/4] Converter Control ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[10/19] Коллекция: Математическое моделирование и
+    [1/8] Electric Motor Modeling and Control ... selected (1)
+    [2/8] Modeling and Simulation with Simulink ... selected (2)
+    [3/8] Designing and Simulating Physical Models ... selected (3)
+    [4/8] Motors and Motor Control Circuits ... selected (4)
+    [5/8] Introduction to Power Electronics ... selected (5)
+    [6/8] Magnetics for Power Electronic Converters ... selected (6)
+    [7/8] Power Conversion for Electronic Devices ... selected (7)
+    [8/8] Power Plant Electrical Systems and Generator Fundamentals ... selected (8)
+    Подтверждено: 8/8 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[11/19] Коллекция: Канализация наружные сети и соо
+    [1/4] Planning & Design of Sanitation Systems and Technologies ... selected (1)
+    [2/4] New paradigms in wastewater management ... selected (2)
+    [3/4] Sustainable Urban Water Systems ... selected (3)
+    [4/4] Global Environmental Management ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[12/19] Коллекция: Технология очистки сточных вод
+    [1/4] Design of Specific Systems ... selected (1)
+    [2/4] New paradigms in wastewater management ... selected (2)
+    [3/4] Planning & Design of Sanitation Systems and Technologies ... selected (3)
+    [4/4] Introduction to Faecal Sludge Management ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[13/19] Коллекция: Основы локомотивостроения
+    [1/5] Machine Design Part I ... selected (1)
+    [2/5] Motors and Motor Control Circuits ... selected (2)
+    [3/5] Design and Assemble an IC Engine Using SolidWorks ... selected (3)
+    [4/5] Electric Motor Modeling and Control ... selected (4)
+    [5/5] Mechanical Vibration ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[14/19] Коллекция: Тяговые аппараты и электрообору
+    [1/1] Motors and Motor Control Circuits ... selected (1)
+    Подтверждено: 1/1 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[15/19] Коллекция: Основы градостроительства и про
+    [1/6] Sustainable Regional Principles, Planning and Transportation ... selected (1)
+    [2/6] Transportation, Sustainable Buildings, Green Construction ... selected (2)
+    [3/6] Introduction to interdisciplinary sustainable architecture ... selected (3)
+    [4/6] BIM Coordination ... selected (4)
+    [5/6] Design Basics of RCC Buildings ... selected (5)
+    [6/6] Design and Detailing of RCC elements ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[16/19] Коллекция: Инженерия городских дорог
+    [1/5] Pavement Materials and Design (IRC and MoRTH) ... selected (1)
+    [2/5] Pavement Construction Practices (IRC and MoRTH) ... selected (2)
+    [3/5] Construction Machinery for Concreting /Roads & Earth Moving ... selected (3)
+    [4/5] Mastering bitumen for better roads and innovative applications ... selected (4)
+    [5/5] Highway Geometry and Pavement Design ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[17/19] Коллекция: Геоинформационные технологии в
+    [1/5] Introduction to GIS Mapping ... selected (1)
+    [2/5] GIS Data Acquisition and Map Design ... selected (2)
+    [3/5] Spatial Analysis and Satellite Imagery in a GIS ... selected (3)
+    [4/5] Remote Sensing Image Acquisition, Analysis and Applications ... selected (4)
+    [5/5] Spatial Analysis, 3D Data & Machine Learning ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[18/19] Коллекция: Эргономика (система «человек–ма
+    [1/5] What is the Human Factor in Design? ... selected (1)
+    [2/5] Anthropometry, Biomechanics, and Motor Skills in User Design ... selected (2)
+    [3/5] Human Cognitive Capacities & Limitations ... selected (3)
+    [4/5] The Limits of Human Perception ... selected (4)
+    [5/5] Industrial Hygiene and Incident Management ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+[19/19] Коллекция: Эргономические треб-я при обесп
+    [1/5] Anthropometry, Biomechanics, and Motor Skills in User Design ... selected (1)
+    [2/5] Industrial Hygiene and Incident Management ... selected (2)
+    [3/5] The Limits of Human Perception ... selected (3)
+    [4/5] Human Cognitive Capacities & Limitations ... selected (4)
+    [5/5] What is the Human Factor in Design? ... selected (5)
+ERROR COLLECTION: После Confirm selections Coursera не открыла коллекцию или список коллекций.
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+Перемещение коллекций наверх:
+    Эргономические треб-я при обесп ... ERROR: Коллекция не найдена для перемещения: Эргономические треб-я при обесп
+    Эргономика (система «человек–ма ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Геоинформационные технологии в ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Инженерия городских дорог ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Основы градостроительства и про ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Тяговые аппараты и электрообору ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Основы локомотивостроения ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Технология очистки сточных вод ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Канализация наружные сети и соо ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Математическое моделирование и ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Теория электрической тяги и тяг ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Инфраст-ра высокоскоростного эл ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Патентоведение, лицензирование ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Альтернативные источники энерги ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Теоретические основы использова ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Электрические сети и системы ... ERROR: page.waitForFunction: Timeout 20000ms exceeded.
+    Трехмерное моделирование детале ... moved_to_top
+    Системы автоматического управле ... moved_to_top
+    Методология преподавания специа ... moved_to_top
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+
+Итог по строкам Excel: { added: 111, error: 1 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_16-33-50-956\console.txt

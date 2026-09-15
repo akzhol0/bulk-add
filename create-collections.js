@@ -57,11 +57,13 @@ function parseArgs(argv) {
     file: null,
     names: null,
     dryRun: false,
+    reorderOnly: false,
     limitCollections: null,
   };
 
   for (const arg of argv) {
     if (arg === '--dry-run') opts.dryRun = true;
+    else if (arg === '--reorder-only') opts.reorderOnly = true;
     else if (arg.startsWith('--url=')) opts.url = arg.slice('--url='.length).trim();
     else if (arg.startsWith('--file=')) opts.file = arg.slice('--file='.length).trim();
     else if (arg.startsWith('--names=')) opts.names = arg.slice('--names='.length).trim();
@@ -120,9 +122,10 @@ function resolveCollectionName(sheetName, nameOverrides = {}) {
   if (overriddenName) return overriddenName;
 
   if (normalizedSheetName.length === 31) {
-    throw new Error(
-      `Название вкладки «${normalizedSheetName}» содержит ровно 31 символ и, вероятно, обрезано Excel. `
-      + 'Добавьте для него полное название в collection-names.json.',
+    console.warn(
+      `ПРЕДУПРЕЖДЕНИЕ: название вкладки «${normalizedSheetName}» содержит 31 символ `
+      + 'и может быть обрезано Excel. Полного варианта нет в collection-names.json; '
+      + 'используется название вкладки как есть.',
     );
   }
 
@@ -352,32 +355,74 @@ async function firstCollectionName(page) {
   return normalizeText(await link.innerText().catch(() => ''));
 }
 
-async function dragCollectionToTop(page, collectionName, timeout) {
-  const sourceRow = await collectionRowByName(page, collectionName);
-  if (!sourceRow) throw new Error(`Коллекция не найдена для перемещения: ${collectionName}`);
+async function collectionNamesInOrder(page) {
+  const rows = collectionRows(page);
+  const count = await rows.count();
+  const names = [];
+  for (let index = 0; index < count; index++) {
+    const link = rows.nth(index).locator('a[href*="/collection/"]').first();
+    names.push(normalizeText(await link.innerText().catch(() => '')));
+  }
+  return names;
+}
 
+async function dragRowAbove(page, sourceRow, targetRow) {
+  const sourceHandle = sourceRow.locator('[data-testid="collection-drag-handle-icon"]').first();
+  const targetHandle = targetRow.locator('[data-testid="collection-drag-handle-icon"]').first();
+
+  await targetRow.scrollIntoViewIfNeeded();
+  await sourceRow.scrollIntoViewIfNeeded();
+  const sourceBox = await sourceHandle.boundingBox();
+  const targetBox = await targetHandle.boundingBox();
+  if (!sourceBox || !targetBox) throw new Error('Не удалось определить координаты drag-and-drop.');
+
+  const sourceX = sourceBox.x + sourceBox.width / 2;
+  const sourceY = sourceBox.y + sourceBox.height / 2;
+  const targetX = targetBox.x + targetBox.width / 2;
+  const targetY = targetBox.y + 2;
+
+  await page.mouse.move(sourceX, sourceY);
+  await page.mouse.down();
+  try {
+    // A short initial movement activates Coursera's pointer-based drag sensor.
+    await page.mouse.move(sourceX, sourceY - 10, { steps: 5 });
+    await page.waitForTimeout(150);
+    await page.mouse.move(targetX, targetY, { steps: 20 });
+    await page.waitForTimeout(500);
+  } finally {
+    await page.mouse.up();
+  }
+  await page.waitForTimeout(1200);
+}
+
+async function dragCollectionToTop(page, collectionName, timeout) {
+  const initialRow = await collectionRowByName(page, collectionName);
+  if (!initialRow) throw new Error(`Коллекция не найдена для перемещения: ${collectionName}`);
   if (await firstCollectionName(page) === collectionName) return 'already_at_top';
 
-  const sourceHandle = sourceRow.locator('[data-testid="collection-drag-handle-icon"]').first();
-  const targetHandle = collectionRows(page).first()
-    .locator('[data-testid="collection-drag-handle-icon"]')
-    .first();
+  const maximumSteps = Math.max(1, await collectionRows(page).count()) * 2;
+  for (let step = 0; step < maximumSteps; step++) {
+    const before = await collectionNamesInOrder(page);
+    const sourceIndex = before.indexOf(collectionName);
+    if (sourceIndex === 0) {
+      await page.waitForTimeout(1000);
+      return 'moved_to_top';
+    }
+    if (sourceIndex < 0) throw new Error(`Коллекция исчезла из списка: ${collectionName}`);
 
-  await sourceHandle.dragTo(targetHandle, {
-    targetPosition: { x: 5, y: 2 },
-    timeout,
-  });
+    const rows = collectionRows(page);
+    const sourceRow = rows.nth(sourceIndex);
+    const targetRow = rows.nth(sourceIndex - 1);
+    await dragRowAbove(page, sourceRow, targetRow);
 
-  await page.waitForFunction((expectedName) => {
-    const row = [...document.querySelectorAll('li')].find(
-      (item) => item.querySelector('[data-testid="collection-drag-handle-icon"]'),
-    );
-    const text = row?.querySelector('a[href*="/collection/"]')?.textContent || '';
-    return text.replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim() === expectedName;
-  }, collectionName, { timeout });
+    const after = await collectionNamesInOrder(page);
+    const newIndex = after.indexOf(collectionName);
+    if (newIndex < 0 || newIndex >= sourceIndex) {
+      throw new Error(`Порядок не изменился после перетаскивания: ${collectionName}`);
+    }
+  }
 
-  await page.waitForTimeout(1000);
-  return 'moved_to_top';
+  throw new Error(`Не удалось поднять коллекцию наверх за ${timeout} мс: ${collectionName}`);
 }
 
 async function reorderCollectionsToTop(page, collectionsUrl, collections) {
@@ -752,6 +797,9 @@ async function processCollection(page, collectionsUrl, collection, filePath, dry
 
 async function main() {
   const opts = parseArgs(process.argv.slice(2));
+  if (opts.dryRun && opts.reorderOnly) {
+    throw new Error('Нельзя одновременно использовать --dry-run и --reorder-only.');
+  }
   const collectionsUrl = normalizeCollectionsUrl(opts.url);
   const filePath = resolveWorkbookPath(opts.file);
   const nameOverrides = loadCollectionNameOverrides(opts.names);
@@ -771,7 +819,13 @@ async function main() {
   console.log(`Страница программы: ${collectionsUrl}`);
   console.log(`Коллекций: ${collections.length}`);
   console.log(`Курсов в Excel: ${totalCourses}`);
-  console.log(`Режим: ${opts.dryRun ? 'DRY RUN (без создания)' : 'СОЗДАНИЕ КОЛЛЕКЦИЙ'}`);
+  console.log(
+    `Режим: ${opts.dryRun
+      ? 'DRY RUN (без создания)'
+      : opts.reorderOnly
+        ? 'ТОЛЬКО ПЕРЕМЕЩЕНИЕ КОЛЛЕКЦИЙ'
+        : 'СОЗДАНИЕ КОЛЛЕКЦИЙ'}`,
+  );
   console.log(`Папка запуска: ${artifacts.runDir}`);
   console.log(`Лог консоли: ${artifacts.consoleLogPath}`);
 
@@ -789,7 +843,7 @@ async function main() {
   let fatalAuthError = false;
   let reorderHadErrors = false;
 
-  for (let index = 0; index < collections.length; index++) {
+  for (let index = 0; !opts.reorderOnly && index < collections.length; index++) {
     const collection = collections[index];
     console.log(`\n[${index + 1}/${collections.length}] Коллекция: ${collection.name}`);
 
@@ -835,6 +889,19 @@ async function main() {
   if (!opts.dryRun && !fatalAuthError) {
     console.log('\nПеремещение коллекций наверх:');
     const reorderStatuses = await reorderCollectionsToTop(page, collectionsUrl, collections);
+    if (opts.reorderOnly) {
+      for (const collection of collections) {
+        results.push({
+          collection: collection.name,
+          excel_row: '',
+          course: '',
+          collection_status: 'reorder_only',
+          course_status: '',
+          program_url: collectionsUrl,
+          source_file: filePath,
+        });
+      }
+    }
     for (const row of results) {
       row.reorder_status = reorderStatuses.get(row.collection) || 'not_attempted';
     }
