@@ -1,0 +1,30 @@
+﻿Запуск: 15.09.2026, 11:17:10
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Toshkent davlat texnika universiteti (TDTU).xlsx
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkentskii-gosudarstvennyi-transportnyi-universitet-program-8r91y/catalog/collections
+Коллекций: 1
+Курсов в Excel: 14
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-17-10-567
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-17-10-567\console.txt
+
+[1/1] Коллекция: Энергетика и электротехника
+    [1/14] Electrical Power Generation - An Industrial Outlook ... selected (1)
+    [2/14] Electrical Power Distribution ... selected (2)
+    [3/14] Design of Transmission Line: Modelling and Performance ... selected (3)
+    [4/14] MV Substation - An industrial approach (PART-A) ... selected (4)
+    [5/14] Basics of Electrical Protection System ... selected (5)
+    [6/14] Electric Power Systems ... selected (6)
+    [7/14] Power Plant Engineering: Fundamentals & Thermal Cycles ... selected (7)
+    [8/14] Power Plant Electrical Systems and Generator Fundamentals ... selected (8)
+    [9/14] Coal Power Plants: Steam, Turbines & Emission Control ... selected (9)
+    [10/14] Planning of Hydropower Projects ... selected (10)
+    [11/14] Renewable Power and Electricity Systems ... selected (11)
+    [12/14] Renewable Energy Technology Fundamentals ... selected (12)
+    [13/14] Introduction to Power Electronics ... selected (13)
+    [14/14] Energy management for real estate. Methods and digital tools ... selected (14)
+    Подтверждено: 14/14 | не найдено: 0 | ошибок: 0
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-17-10-567\report.xlsx
+
+Итог по строкам Excel: { added: 14 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-17-10-567\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-17-10-567\console.txt

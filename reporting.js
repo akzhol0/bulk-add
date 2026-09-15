@@ -16,7 +16,11 @@ function localStamp(date = new Date()) {
 }
 
 function createRunArtifacts(kind) {
-  const prefix = kind === 'audit' ? 'АУДИТ' : 'ДОБАВЛЕНИЕ';
+  const prefix = kind === 'audit'
+    ? 'АУДИТ'
+    : kind === 'collections'
+      ? 'СОЗДАНИЕ_КОЛЛЕКЦИЙ'
+      : 'ДОБАВЛЕНИЕ';
   const runDir = path.join(reportsDir, `${prefix}_${localStamp()}`);
   const screenshotsDir = path.join(runDir, 'screenshots');
 

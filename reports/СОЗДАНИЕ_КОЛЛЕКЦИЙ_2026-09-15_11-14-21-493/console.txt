@@ -1,0 +1,16 @@
+﻿Запуск: 15.09.2026, 11:14:21
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Toshkent davlat texnika universiteti (TDTU).xlsx
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkentskii-gosudarstvennyi-transportnyi-universitet-program-8r91y/catalog/collections
+Коллекций: 1
+Курсов в Excel: 14
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-14-21-493
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-14-21-493\console.txt
+
+[1/1] Коллекция: Энергетика и электротехника
+ERROR COLLECTION: Не найдено поле Search catalog / «Поиск в каталоге».
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-14-21-493\report.xlsx
+
+Итог по строкам Excel: { error: 1 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-14-21-493\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-14-21-493\console.txt

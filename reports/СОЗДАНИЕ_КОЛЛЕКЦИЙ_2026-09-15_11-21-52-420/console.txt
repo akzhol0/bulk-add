@@ -1,0 +1,138 @@
+﻿Запуск: 15.09.2026, 11:21:52
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Toshkent davlat texnika universiteti (TDTU).xlsx
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkentskii-gosudarstvennyi-transportnyi-universitet-program-8r91y/catalog/collections
+Коллекций: 8
+Курсов в Excel: 94
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\console.txt
+
+[1/8] Коллекция: Энергетика и электротехника
+    [1/14] Electrical Power Generation - An Industrial Outlook ... selected (1)
+    [2/14] Electrical Power Distribution ... selected (2)
+    [3/14] Design of Transmission Line: Modelling and Performance ... selected (3)
+    [4/14] MV Substation - An industrial approach (PART-A) ... selected (4)
+    [5/14] Basics of Electrical Protection System ... selected (5)
+    [6/14] Electric Power Systems ... selected (6)
+    [7/14] Power Plant Engineering: Fundamentals & Thermal Cycles ... selected (7)
+    [8/14] Power Plant Electrical Systems and Generator Fundamentals ... selected (8)
+    [9/14] Coal Power Plants: Steam, Turbines & Emission Control ... selected (9)
+    [10/14] Planning of Hydropower Projects ... selected (10)
+    [11/14] Renewable Power and Electricity Systems ... selected (11)
+    [12/14] Renewable Energy Technology Fundamentals ... selected (12)
+    [13/14] Introduction to Power Electronics ... selected (13)
+    [14/14] Energy management for real estate. Methods and digital tools ... selected (14)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[2/8] Коллекция: Электроника, автоматизация и ро
+    [1/19] Introduction to Electronics ... selected (1)
+    [2/19] Introduction to Power Electronics ... selected (2)
+    [3/19] Sensors and Sensor Circuit Design ... selected (3)
+    [4/19] Motors and Motor Control Circuits ... selected (4)
+    [5/19] Sensor Manufacturing and Process Control ... selected (5)
+    [6/19] Introduction to FPGA Design for Embedded Systems ... selected (6)
+    [7/19] Fundamentals of Robotics & Industrial Automation ... selected (7)
+    [8/19] AI for Autonomous Vehicles and Robotics ... selected (8)
+    [9/19] Basics of Robotics ... selected (9)
+    [10/19] Modern Robotics, Course 1: Foundations of Robot Motion ... selected (10)
+    [11/19] Modern Robotics, Course 2: Robot Kinematics ... selected (11)
+    [12/19] Modern Robotics, Course 5: Robot Manipulation and Wheeled Mobile Robots ... selected (12)
+    [13/19] Modern Robotics, Course 4: Robot Motion Planning and Control ... selected (13)
+    [14/19] Modern Robotics, Course 3: Robot Dynamics ... selected (14)
+    [15/19] Light Emitting Diodes and Semiconductor Lasers ... selected (15)
+    [16/19] Nanophotonics and Detectors ... selected (16)
+    [17/19] Design of High-Performance Optical Systems ... selected (17)
+    [18/19] Optical Efficiency and Resolution ... selected (18)
+    [19/19] First Order Optical System Design ... selected (19)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[3/8] Коллекция: Нефтегазовое дело
+    [1/7] Hydrocarbon Exploration and Production ... selected (1)
+    [2/7] From Wellhead to Refinery: Midstream Oil and Gas Processing ... selected (2)
+    [3/7] Natural Gas Production and Processing ... selected (3)
+    [4/7] AI & ML Applications in Oil and Gas Industry ... selected (4)
+    [5/7] Utilities, Safety & Environmental Care in Oil & Gas Industry ... selected (5)
+    [6/7] Oil & Gas Industry Operations and Markets ... selected (6)
+    [7/7] Natural Gas ... selected (7)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[4/8] Коллекция: Геология и горное дело
+    [1/12] Foundations of Modern Mining ... selected (1)
+    [2/12] Remote Sensing Image Acquisition, Analysis and Applications ... selected (2)
+    [3/12] Geospatial Technology for Construction ... selected (3)
+    [4/12] Basic Principles of Geostatistical Geospatial Modeling ... selected (4)
+    [5/12] Case Studies in Geostatistical Modeling ... selected (5)
+    [6/12] Fundamentals of GIS ... selected (6)
+    [7/12] GIS Data Acquisition and Map Design ... selected (7)
+    [8/12] GIS, Mapping, and Spatial Analysis Capstone ... selected (8)
+    [9/12] Introduction to GIS Mapping ... selected (9)
+    [10/12] Planet Earth...and You! ... selected (10)
+    [11/12] GIS Data Formats, Design and Quality ... selected (11)
+    [12/12] Geospatial Information Technology Essentials ... selected (12)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[5/8] Коллекция: Экология и охрана окружающей ср
+    [1/10] Introduction to Environmental Science ... selected (1)
+    [2/10] Ecology: Ecosystem Dynamics and Conservation ... selected (2)
+    [3/10] Managing Wetlands: Conservation & Restoration ... selected (3)
+    [4/10] Ecosystem Services: a Method for Sustainable Development ... selected (4)
+    [5/10] Air Pollution – a Global Threat to our Health ... selected (5)
+    [6/10] Environmental Hazards and Global Public Health ... selected (6)
+    [7/10] Global Environmental Management ... selected (7)
+    [8/10] New paradigms in wastewater management ... selected (8)
+    [9/10] Natural Attenuation of Groundwater Contaminants: New Paradigms, Technologies, and Applications ... selected (9)
+    [10/10] Environmental Issues, Policies, and Practice ... selected (10)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[6/8] Коллекция: Металлургия, материаловедение и
+    [1/10] Introduction to Materials Science ... selected (1)
+    [2/10] Crystal Structures and Properties of Metals ... selected (2)
+    [3/10] Shape and Property Control of Metals I & II ... selected (3)
+    [4/10] Phase Diagrams I & II ... selected (4)
+    [5/10] Ferrous Technology I ... selected (5)
+    [6/10] Ferrous Technology II ... selected (6)
+    [7/10] Foundations in Heavy Industry Production ... selected (7)
+    [8/10] Welding Processes in Heavy Manufacturing & Quality Controls ... selected (8)
+    [9/10] Machine Design Part I ... selected (9)
+    [10/10] Introduction to Vehicle Dynamics ... selected (10)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[7/8] Коллекция: Биотехнологии и химические техн
+    [1/10] Industrial Biotechnology ... selected (1)
+    [2/10] Introduction to Industrial Bioprocess Development ... selected (2)
+    [3/10] Industrial Biomanufacturing: From Cells to Products ... selected (3)
+    [4/10] Pilot Scale Fermentation | The Basics ... selected (4)
+    [5/10] Chemical Engineering Thermodynamics 1 ... selected (5)
+    [6/10] Chemical Engineering Thermodynamics 2 ... selected (6)
+    [7/10] Introduction to Process Safety and Risk Analysis ... selected (7)
+    [8/10] Chemical Hazards: Toxicology & Reactivity ... selected (8)
+    [9/10] Predictive Models for Toxic Chemical Releases ... selected (9)
+    [10/10] Chemical Process Safety ... selected (10)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+[8/8] Коллекция: Охрана труда и производственная
+    [1/12] Introduction to HSE Engineering ... selected (1)
+    [2/12] Risk Management and Industrial Safety ... selected (2)
+    [3/12] Industrial Safety Engineering ... selected (3)
+    [4/12] Industrial Hygiene and Incident Management ... selected (4)
+    [5/12] ISO 45001 Occupational Health & Safety Management System ... selected (5)
+    [6/12] Fire and Explosion Hazards Analysis ... selected (6)
+    [7/12] Chemical Hazards: Toxicology & Reactivity ... selected (7)
+    [8/12] Introduction to Process Safety and Risk Analysis ... selected (8)
+    [9/12] Safety in the Utility Industry ... selected (9)
+    [10/12] Basics of Fire Protection, Detection and Life Safety Systems ... selected (10)
+    [11/12] Hazardous Waste Management ... selected (11)
+    [12/12] Utilities, Safety & Environmental Care in Oil & Gas Industry ... selected (12)
+ERROR COLLECTION: Не появился элемент: Add content / Добавить материалы
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+
+Итог по строкам Excel: { error: 8 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-15_11-21-52-420\console.txt

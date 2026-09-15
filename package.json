@@ -6,7 +6,9 @@
   "scripts": {
     "login": "node login.js",
     "add": "node add-course.js",
-    "audit": "node audit-courses.js"
+    "audit": "node audit-courses.js",
+    "create-collections": "node create-collections.js",
+    "test": "node --test"
   },
   "dependencies": {
     "playwright": "latest",
