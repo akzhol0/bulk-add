@@ -1,0 +1,40 @@
+﻿Запуск: 16.09.2026, 09:58:29
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\QazaqGaz.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/qazaqgaz/admin/programs/qazaqgaz/catalog/collections
+Коллекций: 1
+Курсов в Excel: 17
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_09-58-29-275
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_09-58-29-275\console.txt
+
+[1/1] Коллекция: Coursera Courses
+    [1/17] Oil & Gas Industry Operations and Markets ... selected (1)
+    [2/17] Petroleum Engineering with AI Applications ... selected (2)
+    [3/17] Natural Gas Production and Processing ... selected (3)
+    [4/17] Hydrocarbon Exploration and Production ... selected (4)
+    [5/17] Баршаға арналған ЖИ ... selected (5)
+    [6/17] Баршаға арналған генератив ЖИ ... selected (6)
+    [7/17] Principles of Management ... selected (7)
+    [8/17] Strategic Leadership and Management ... selected (8)
+    [9/17] Leading People and Teams Specialization ... ERROR: locator.count: Target page, context or browser has been closed
+    [10/17] Six Sigma Principles ... ERROR: locator.click: Target page, context or browser has been closed
+    [11/17] Supply Chain Operations ... ERROR: locator.click: Target page, context or browser has been closed
+    [12/17] Supply Chain Logistics ... ERROR: locator.click: Target page, context or browser has been closed
+    [13/17] Demand Forecasting and Inventory Management ... ERROR: locator.click: Target page, context or browser has been closed
+    [14/17] Procurement Strategies ... ERROR: locator.click: Target page, context or browser has been closed
+    [15/17] Understanding Global Supply Chains ... ERROR: locator.click: Target page, context or browser has been closed
+    [16/17] Sales Training: Building Your Sales Career ... ERROR: locator.click: Target page, context or browser has been closed
+    [17/17] Специализация Strategic Sales Management ... ERROR: locator.click: Target page, context or browser has been closed
+ERROR COLLECTION: locator.waitFor: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_09-58-29-275\report.xlsx
+
+Перемещение коллекций наверх:
+
+FATAL: page.goto: Target page, context or browser has been closed
+    at gotoWithRetry (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:302:18)
+    at openCollectionsPage (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:321:9)
+    at reorderCollectionsToTop (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:430:9)
+    at main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:891:35) {
+  log: []
+}

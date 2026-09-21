@@ -1,0 +1,38 @@
+﻿Запуск: 16.09.2026, 10:03:05
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\QazaqGaz.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/qazaqgaz/admin/programs/qazaqgaz/catalog/collections
+Коллекций: 1
+Курсов в Excel: 17
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903\console.txt
+
+[1/1] Коллекция: Coursera Courses
+    [1/17] Oil & Gas Industry Operations and Markets ... selected (1)
+    [2/17] Petroleum Engineering with AI Applications ... selected (2)
+    [3/17] Natural Gas Production and Processing ... selected (3)
+    [4/17] Hydrocarbon Exploration and Production ... selected (4)
+    [5/17] Баршаға арналған ЖИ ... selected (5)
+    [6/17] Баршаға арналған генератив ЖИ ... selected (6)
+    [7/17] Principles of Management ... selected (7)
+    [8/17] Strategic Leadership and Management ... selected (8)
+    [9/17] Leading People and Teams ... selected (9)
+    [10/17] Six Sigma Principles ... selected (10)
+    [11/17] Supply Chain Operations ... selected (11)
+    [12/17] Supply Chain Logistics ... selected (12)
+    [13/17] Demand Forecasting and Inventory Management ... selected (13)
+    [14/17] Procurement Strategies ... selected (14)
+    [15/17] Understanding Global Supply Chains ... selected (15)
+    [16/17] Sales Training: Building Your Sales Career ... selected (16)
+    [17/17] Strategic Sales Management ... selected (17)
+    Подтверждено: 17/17 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903\report.xlsx
+
+Перемещение коллекций наверх:
+    Coursera Courses ... ERROR: Порядок не изменился после перетаскивания: Coursera Courses
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903\report.xlsx
+
+Итог по строкам Excel: { added: 17 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-16_10-03-05-903\console.txt

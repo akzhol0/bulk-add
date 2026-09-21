@@ -1,0 +1,27 @@
+﻿Запуск: 18.09.2026, 17:16:44
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Курсы для Кокшетауского университета имени Ш. Уалиханова.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/shokan/admin/programs/ualikhanov-university-kmytn/catalog/collections
+Коллекций: 1
+Курсов в Excel: 6
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-16-44-910
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-16-44-910\console.txt
+
+[1/1] Коллекция: AI - ИИ
+    [1/6] Artificial Intelligence (AI) Education for Teachers ... selected (1)
+    [2/6] AI-Powered Higher Education ... selected (2)
+    [3/6] AI in Education: Leveraging ChatGPT for Teaching ... selected (3)
+    [4/6] Innovative Teaching with ChatGPT ... selected (4)
+    [5/6] Generative AI: Empowering Modern Education ... selected (5)
+    [6/6] AI in Education: Adaptive Learning & Personalized Pathways ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-16-44-910\report.xlsx
+
+Перемещение коллекций наверх:
+
+FATAL: page.waitForTimeout: Target page, context or browser has been closed
+    at reorderCollectionsToTop (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:431:14)
+    at async main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:891:29) {
+  log: []
+}

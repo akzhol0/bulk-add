@@ -1,0 +1,56 @@
+﻿Запуск: 18.09.2026, 17:11:13
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Курсы для Кокшетауского университета имени Ш. Уалиханова.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/shokan/admin/programs/ualikhanov-university-kmytn/catalog/collections
+Коллекций: 4
+Курсов в Excel: 21
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\console.txt
+
+[1/4] Коллекция: AI
+ERROR COLLECTION: После Continue форма не перешла к поиску курсов. Значение Collection name: «AI».
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+
+[2/4] Коллекция: Эмоциональный интеллект
+    [1/4] Emotional Intelligence: Cultivating Immensely Human Interactions ... selected (1)
+    [2/4] Professional development: Improve yourself, always ... selected (2)
+    [3/4] The Authentic Communicator: Building Presence and Trust ... selected (3)
+    [4/4] Human Excellence in the AI Age, Part 1: A Soft Skills Course ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+
+[3/4] Коллекция: Коммуникация в медиации (педагоги)
+    [1/5] Mediation and Conflict Resolution ... selected (1)
+    [2/5] Conflict Resolution Skills ... selected (2)
+    [3/5] Introduction to Negotiation: A Strategic Playbook for Becoming a Principled and Persuasive Negotiator ... selected (3)
+    [4/5] Active Listening: Enhancing Communication Skills ... selected (4)
+    [5/5] Successful Negotiation: Essential Strategies and Skills ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+
+[4/4] Коллекция: Методика преподавания и новые подходы в обучении
+    [1/6] Foundations of Teaching for Learning: Introduction ... selected (1)
+    [2/6] New Learning: Principles and Patterns of Pedagogy ... selected (2)
+    [3/6] Designing Learning Innovation ... selected (3)
+    [4/6] e-Learning Ecologies: Innovative Approaches to Teaching and Learning for the Digital Age ... selected (4)
+    [5/6] Assessment for Learning ... selected (5)
+    [6/6] Learning and memory in the brain: a guide for teachers ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+
+Перемещение коллекций наверх:
+    Методика преподавания и новые подходы в обучении ... moved_to_top
+    Коммуникация в медиации (педагоги) ... ERROR: page.waitForTimeout: Target page, context or browser has been closed
+    Эмоциональный интеллект ... ERROR: locator.count: Target page, context or browser has been closed
+    AI ... ERROR: locator.count: Target page, context or browser has been closed
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+
+Итог по строкам Excel: { error: 1, added: 15 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-11-13-228\console.txt
+
+FATAL: browserContext.close: Target page, context or browser has been closed
+    at async main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:933:3) {
+  log: []
+}

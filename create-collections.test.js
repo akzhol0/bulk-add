@@ -7,11 +7,44 @@ const writeXlsxFile = require('write-excel-file/node');
 
 const {
   buildManualCollectionUrl,
+  buildCourseSearchAttempts,
   loadCollectionsFromWorkbook,
   normalizeCollectionsUrl,
   parseArgs,
+  resolveCourseSearchMaxPages,
   resolveCollectionName,
+  stripTrailingCourseTypeLabel,
 } = require('./create-collections');
+
+test('limits course search pagination to a small configurable number of pages', () => {
+  assert.equal(resolveCourseSearchMaxPages(2), 2);
+  assert.equal(resolveCourseSearchMaxPages(1), 1);
+  assert.equal(resolveCourseSearchMaxPages(0), 2);
+  assert.equal(resolveCourseSearchMaxPages(100.5), 2);
+  assert.equal(resolveCourseSearchMaxPages(undefined), 2);
+});
+
+test('removes trailing course type labels only for fallback search', () => {
+  assert.equal(
+    stripTrailingCourseTypeLabel('Geographic Information Systems (GIS) Specialization'),
+    'Geographic Information Systems (GIS)',
+  );
+  assert.equal(stripTrailingCourseTypeLabel('Название курса — Специализация'), 'Название курса');
+  assert.equal(stripTrailingCourseTypeLabel('Название курса (Course)'), 'Название курса');
+  assert.equal(stripTrailingCourseTypeLabel('Название курса Курс'), 'Название курса');
+  assert.equal(stripTrailingCourseTypeLabel('Crash Course on Python'), 'Crash Course on Python');
+  assert.equal(stripTrailingCourseTypeLabel('Course Design Basics'), 'Course Design Basics');
+});
+
+test('tries the Excel title before the title without a trailing type label', () => {
+  const attempts = buildCourseSearchAttempts('Example Title Specialization');
+  assert.deepEqual(attempts[0], {
+    exactName: 'Example Title Specialization',
+    queries: ['Example Title Specialization'],
+  });
+  assert.equal(attempts[1].exactName, 'Example Title');
+  assert.deepEqual(attempts[1].queries, ['Example Title', 'Title']);
+});
 
 test('normalizes a Coursera program URL to its collections page', () => {
   assert.equal(

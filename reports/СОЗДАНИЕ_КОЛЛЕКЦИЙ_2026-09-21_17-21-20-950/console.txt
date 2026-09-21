@@ -1,0 +1,64 @@
+﻿Запуск: 21.09.2026, 17:21:20
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Ташкентский институт инженеров ирригации и механизации сельского хозяйства.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkent-institute-of-irrigation-and-agricultural-mechanization-engineers-national-research-university-program-ealry/catalog/collections
+Коллекций: 7
+Курсов в Excel: 41
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\console.txt
+
+[1/7] Коллекция: Проектирование алгоритмов
+    [1/7] Divide and Conquer, Sorting and Searching, and Randomized Algorithms ... selected (1)
+    [2/7] Graph Search, Shortest Paths, and Data Structures ... selected (2)
+    [3/7] Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming ... selected (3)
+    [4/7] Algorithms, Part I ... selected (4)
+    [5/7] Algorithms, Part II ... selected (5)
+    [6/7] Unordered Data Structures ... selected (6)
+    [7/7] Ordered Data Structures ... selected (7)
+    Подтверждено: 7/7 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[2/7] Коллекция: Геодезия и геоинформатика
+    [1/4] Start Remote Sensing ... selected (1)
+    [2/4] Process SAR & Multispectral ... selected (2)
+    [3/4] Train ML Models ... selected (3)
+    [4/4] Harness Earth Engine ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[3/7] Коллекция: Гидромелиорация
+    [1/6] Excel Basics for Data Analysis ... selected (1)
+    [2/6] Introduction to Engineering Mechanics ... selected (2)
+    [3/6] Understanding Research Methods ... selected (3)
+    [4/6] AI Fundamentals ... selected (4)
+    [5/6] Google Data Analytics ... selected (5)
+    [6/6] BSc Data Science ... ERROR: locator.count: Target page, context or browser has been closed
+ERROR COLLECTION: locator.waitFor: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[4/7] Коллекция: Экономика
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[5/7] Коллекция: Гидротехническое строительство
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[6/7] Коллекция: Энергетика
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+[7/7] Коллекция: Механизация сельского хозяйства
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-21-20-950\report.xlsx
+
+Перемещение коллекций наверх:
+
+FATAL: page.goto: Target page, context or browser has been closed
+    at gotoWithRetry (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:302:18)
+    at openCollectionsPage (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:321:9)
+    at reorderCollectionsToTop (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:430:9)
+    at main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:891:35) {
+  log: []
+}

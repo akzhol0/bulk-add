@@ -2,5 +2,6 @@
   "courseName": "Аспан әлемін танудың алғашқы қадамдары",
   "targetCollection": "Қазақстандық университеттердің курстары / Курсы казахстанских вузов",
   "navigationTimeoutMs": 60000,
-  "actionTimeoutMs": 20000
+  "actionTimeoutMs": 20000,
+  "courseSearchMaxPages": 2
 }

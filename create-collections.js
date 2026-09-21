@@ -40,6 +40,42 @@ function normalizeText(value) {
   return String(value ?? '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+function resolveCourseSearchMaxPages(value) {
+  return Number.isInteger(value) && value >= 1 ? value : 2;
+}
+
+function stripTrailingCourseTypeLabel(value) {
+  const courseName = normalizeText(value);
+  const stripped = courseName.replace(
+    /(?:\s*[-–—:|]\s*|\s+)\(?\s*(?:speciali[sz]ation|course|специализация|курс)\s*\)?\s*$/iu,
+    '',
+  ).trim();
+  return stripped || courseName;
+}
+
+function buildCourseSearchQueries(courseName) {
+  const words = courseName.split(/\s+/);
+  return [...new Set([
+    courseName,
+    words.slice(-2).join(' '),
+    words.at(-1),
+  ].filter(Boolean))];
+}
+
+function buildCourseSearchAttempts(courseName) {
+  const originalName = normalizeText(courseName);
+  const strippedName = stripTrailingCourseTypeLabel(originalName);
+
+  if (strippedName === originalName) {
+    return [{ exactName: originalName, queries: buildCourseSearchQueries(originalName) }];
+  }
+
+  return [
+    { exactName: originalName, queries: [originalName] },
+    { exactName: strippedName, queries: buildCourseSearchQueries(strippedName) },
+  ];
+}
+
 function flexibleTextPattern(text) {
   return normalizeText(text)
     .split(/\s+/)
@@ -579,14 +615,16 @@ async function firstExactCourseCard(page, courseName) {
   return null;
 }
 
-async function findExactCourseAcrossPages(page, courseName, timeout) {
+async function findExactCourseAcrossPages(page, courseName, timeout, maxPages) {
   const firstCourseResult = page.locator('[data-testid="product-card-cds"]').first();
 
-  for (let visitedPages = 0; visitedPages < 100; visitedPages++) {
+  for (let visitedPages = 0; visitedPages < maxPages; visitedPages++) {
     await firstCourseResult.waitFor({ state: 'visible', timeout: Math.min(timeout, 3000) }).catch(() => {});
 
     const exactCard = await firstExactCourseCard(page, courseName);
     if (exactCard) return exactCard;
+
+    if (visitedPages + 1 >= maxPages) break;
 
     let next = null;
     for (const name of UI_TEXT.nextPage) {
@@ -599,11 +637,14 @@ async function findExactCourseAcrossPages(page, courseName, timeout) {
       await firstCourseResult.innerText().catch(() => ''),
     );
     await next.click({ timeout });
-    await page.waitForFunction((oldFirstResult) => {
+    const pageChanged = await page.waitForFunction((oldFirstResult) => {
       const firstResult = document.querySelector('[data-testid="product-card-cds"]');
       const current = (firstResult?.innerText || '').replace(/\u00a0/g, ' ').replace(/\s+/g, ' ').trim();
       return current !== oldFirstResult;
-    }, previousFirstResult, { timeout });
+    }, previousFirstResult, { timeout: Math.min(timeout, 5000) })
+      .then(() => true)
+      .catch(() => false);
+    if (!pageChanged) break;
   }
 
   return null;
@@ -633,17 +674,20 @@ async function submitSearch(page, search, query, timeout) {
 }
 
 async function findCourse(page, search, courseName, timeout) {
-  const words = courseName.split(/\s+/);
-  const queries = [...new Set([
-    courseName,
-    words.slice(-2).join(' '),
-    words.at(-1),
-  ].filter(Boolean))];
+  const maxPages = resolveCourseSearchMaxPages(config.courseSearchMaxPages);
+  const attempts = buildCourseSearchAttempts(courseName);
 
-  for (const query of queries) {
-    await submitSearch(page, search, query, timeout);
-    const card = await findExactCourseAcrossPages(page, courseName, timeout);
-    if (card) return card;
+  for (const attempt of attempts) {
+    for (const query of attempt.queries) {
+      await submitSearch(page, search, query, timeout);
+      const card = await findExactCourseAcrossPages(
+        page,
+        attempt.exactName,
+        timeout,
+        maxPages,
+      );
+      if (card) return card;
+    }
   }
   return null;
 }
@@ -942,11 +986,14 @@ if (require.main === module) {
 
 module.exports = {
   buildManualCollectionUrl,
+  buildCourseSearchAttempts,
   loadCollectionsFromWorkbook,
   loadCollectionNameOverrides,
   normalizeCollectionsUrl,
   normalizeText,
   parseArgs,
+  resolveCourseSearchMaxPages,
   resolveCollectionName,
   resolveWorkbookPath,
+  stripTrailingCourseTypeLabel,
 };

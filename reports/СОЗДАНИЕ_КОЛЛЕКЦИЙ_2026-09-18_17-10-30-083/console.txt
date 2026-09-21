@@ -1,0 +1,35 @@
+﻿Запуск: 18.09.2026, 17:10:30
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Курсы для Кокшетауского университета имени Ш. Уалиханова.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/shokan/admin/programs/ualikhanov-university-kmytn/catalog/collections
+Коллекций: 4
+Курсов в Excel: 21
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083\console.txt
+
+[1/4] Коллекция: AI
+ERROR COLLECTION: page.waitForTimeout: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083\report.xlsx
+
+[2/4] Коллекция: Эмоциональный интеллект
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083\report.xlsx
+
+[3/4] Коллекция: Коммуникация в медиации (педагоги)
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083\report.xlsx
+
+[4/4] Коллекция: Методика преподавания и новые подходы в обучении
+ERROR COLLECTION: page.goto: Target page, context or browser has been closed
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-18_17-10-30-083\report.xlsx
+
+Перемещение коллекций наверх:
+
+FATAL: page.goto: Target page, context or browser has been closed
+    at gotoWithRetry (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:302:18)
+    at openCollectionsPage (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:321:9)
+    at reorderCollectionsToTop (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:430:9)
+    at main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:891:35) {
+  log: []
+}

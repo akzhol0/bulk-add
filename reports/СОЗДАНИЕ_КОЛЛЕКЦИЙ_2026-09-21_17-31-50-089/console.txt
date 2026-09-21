@@ -1,0 +1,60 @@
+﻿Запуск: 21.09.2026, 17:31:50
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Ташкентский институт инженеров ирригации и механизации сельского хозяйства.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkent-institute-of-irrigation-and-agricultural-mechanization-engineers-national-research-university-program-ealry/catalog/collections
+Коллекций: 4
+Курсов в Excel: 24
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\console.txt
+
+[1/4] Коллекция: Экономика
+    [1/4] Foundations: Data, Data, Everywhere ... selected (1)
+    [2/4] Ask Questions to Make Data-Driven Decisions ... selected (2)
+    [3/4] Prepare Data for Exploration ... selected (3)
+    [4/4] Process Data from Dirty to Clean ... selected (4)
+    Подтверждено: 4/4 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+
+[2/4] Коллекция: Гидротехническое строительство
+    [1/10] Construction Project Management ... selected (1)
+    [2/10] BIM Fundamentals for Engineers ... selected (2)
+    [3/10] Geospatial Technology for Construction ... selected (3)
+    [4/10] Fundamentals of GIS ... selected (4)
+    [5/10] Geospatial Analysis with ArcGIS ... selected (5)
+    [6/10] Geographic Information Systems (GIS) Specialization ... NOT FOUND
+    [7/10] Introduction to the Internet of Things and Embedded Systems ... selected (6)
+    [8/10] Digital Twins ... selected (7)
+    [9/10] Machine Learning with Python ... selected (8)
+    [10/10] Python for Data Science, AI & Development ... selected (9)
+    Подтверждено: 9/10 | не найдено: 1 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+
+[3/4] Коллекция: Энергетика
+    [1/5] Electric Power Systems ... selected (1)
+    [2/5] Basics of Robotics ... selected (2)
+    [3/5] Wind Energy ... selected (3)
+    [4/5] Foundations: Data, Data, Everywhere ... selected (4)
+    [5/5] Wind Turbine Sensors ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+
+[4/4] Коллекция: Механизация сельского хозяйства
+    [1/5] IoT Enabled Farming ... selected (1)
+    [2/5] Fundamentals of GIS ... selected (2)
+    [3/5] Introduction to Internet of Things ... selected (3)
+    [4/5] Modern Issues in Food & Agriculture ... selected (4)
+    [5/5] Perspectives in Digital Transformation: Agribusiness ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+
+Перемещение коллекций наверх:
+    Механизация сельского хозяйства ... ERROR: page.waitForTimeout: Target page, context or browser has been closed
+    Энергетика ... ERROR: locator.count: Target page, context or browser has been closed
+    Гидротехническое строительство ... ERROR: locator.count: Target page, context or browser has been closed
+    Экономика ... ERROR: locator.count: Target page, context or browser has been closed
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+
+Итог по строкам Excel: { added: 23, not_found: 1 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-21_17-31-50-089\console.txt
