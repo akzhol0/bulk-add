@@ -1,0 +1,190 @@
+﻿Запуск: 24.09.2026, 12:26:12
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Национальный университет Узбекистана имени М.Улугбека (1).xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/natsional-nyi-universitet-uzbekistana-imeni-m-ulugbeka-program-f6ps3/catalog/collections
+Коллекций: 11
+Курсов в Excel: 114
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\console.txt
+
+[1/11] Коллекция: Иностранные языки
+    [1/18] General Academic English ... selected (1)
+    [2/18] Academic Listening and Note-Taking ... selected (2)
+    [3/18] Academic Discussions in English ... selected (3)
+    [4/18] Presentations: Speaking so that People Listen ... selected (4)
+    [5/18] Write Professional Emails in English ... selected (5)
+    [6/18] Speak English Professionally: In Person, Online & On the Phone ... selected (6)
+    [7/18] Spanish Vocabulary: Meeting People ... selected (7)
+    [8/18] Spanish Vocabulary: Cultural Experience ... selected (8)
+    [9/18] Spanish Vocabulary: Sports, Travel, and the Home ... selected (9)
+    [10/18] Spanish Vocabulary: Careers and Social Events ... selected (10)
+    [11/18] Étudier en France: French Intermediate course B1-B2 ... selected (11)
+    [12/18] Chinese for Beginners ... selected (12)
+    [13/18] Chinese Characters for beginner 汉字 ... selected (13)
+    [14/18] Chinese for HSK 2 ... selected (14)
+    [15/18] Chinese for HSK 3 PART I ... selected (15)
+    [16/18] Chinese for HSK 4 ... selected (16)
+    [17/18] Chinese for HSK 5 ... selected (17)
+    [18/18] Chinese for HSK 6 ... selected (18)
+    Подтверждено: 18/18 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[2/11] Коллекция: Практика чтения и письма
+    [1/9] Critical Reading and Writing Skills with GenAI ... selected (1)
+    [2/9] English Composition I ... selected (2)
+    [3/9] Writing in English at University ... selected (3)
+    [4/9] Writing Skills for University Success ... selected (4)
+    [5/9] Grammar and Punctuation ... selected (5)
+    [6/9] Getting Started with Essay Writing ... selected (6)
+    [7/9] Advanced Writing ... selected (7)
+    [8/9] Introduction to Research for Essay Writing ... selected (8)
+    [9/9] Project: Writing a Research Paper ... selected (9)
+    Подтверждено: 9/9 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[3/11] Коллекция: ACCA и Бухгалтерский учет
+    [1/13] Accounting Analysis II: Accounting for Liabilities and Equity ... selected (1)
+    [2/13] Automate, Analyze, and Evaluate Accounting with AI ... selected (2)
+    [3/13] GenAI for Automated Financial Reporting ... selected (3)
+    [4/13] Principles of Accounts Payable and Receivable Management ... selected (4)
+    [5/13] Financial Accounting Fundamentals ... selected (5)
+    [6/13] Foundations of Financial Reporting ... selected (6)
+    [7/13] Managerial and Cost Accounting ... selected (7)
+    [8/13] Cost Accounting: Decision Making ... selected (8)
+    [9/13] Mastering Business Combinations: Analyze and Apply IFRS ... selected (9)
+    [10/13] Master Audit Risk & Internal Control Systems ... selected (10)
+    [11/13] Financial Statement and Ratio Analysis for Accountants ... selected (11)
+    [12/13] Financial Adjustments, Recording Transactions & Corrections ... selected (12)
+    [13/13] Trial Balance to Financial Reporting ... selected (13)
+    Подтверждено: 13/13 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[4/11] Коллекция: Социальные сети и бизнес-сети
+    [1/6] Social Media and Brand Engagement ... selected (1)
+    [2/6] AI Social Media Marketing with ChatGPT & Gemini ... selected (2)
+    [3/6] Social Media Content Creation with Canva ... selected (3)
+    [4/6] Social Media Data Analytics ... selected (4)
+    [5/6] Navigating Business Careers: Networks, Teams, Expertise ... selected (5)
+    [6/6] Promoting Yourself at Work: Branding & Networking ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[5/11] Коллекция: Психология
+    [1/6] Introduction to Psychology ... selected (1)
+    [2/6] Social Psychology ... selected (2)
+    [3/6] Cognitive Psychology ... selected (3)
+    [4/6] Psychology of Personality ... selected (4)
+    [5/6] Introduction to Abnormal Psychology ... selected (5)
+    [6/6] Statistics for Psychology ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[6/11] Коллекция: Эконометрика и прикладная эконо
+    [1/2] Linear Regression with R: Build & Optimize ... selected (1)
+    [2/2] Practical Time Series Analysis ... selected (2)
+    Подтверждено: 2/2 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[7/11] Коллекция: Программирование
+    [1/11] Programming for Everybody (Getting Started with Python) ... selected (1)
+    [2/11] Python Programming Fundamentals ... selected (2)
+    [3/11] C for Everyone, Part 1: Programming Fundamentals ... selected (3)
+    [4/11] Introduction to Software Development ... selected (4)
+    [5/11] Introduction to Relational Databases ... selected (5)
+    [6/11] Relational Database Design ... selected (6)
+    [7/11] Database Design and Basic SQL in PostgreSQL ... selected (7)
+    [8/11] Using Databases with Python ... selected (8)
+    [9/11] Supervised Machine Learning: Regression and Classification ... selected (9)
+    [10/11] Advanced Learning Algorithms ... selected (10)
+    [11/11] Unsupervised Learning, Recommenders, Reinforcement Learning ... selected (11)
+    Подтверждено: 11/11 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[8/11] Коллекция: Маркетинг
+    [1/8] Generative AI in Marketing ... selected (1)
+    [2/8] GenAI for Marketing Teams ... selected (2)
+    [3/8] Search Engine Optimization and Content Marketing ... selected (3)
+    [4/8] Generative AI for Marketing: Advanced & Responsible ... selected (4)
+    [5/8] Marketing Management ... selected (5)
+    [6/8] Fundamentals of Marketing Strategy ... selected (6)
+    [7/8] Consumer Behavior ... selected (7)
+    [8/8] Marketing Analytics ... selected (8)
+    Подтверждено: 8/8 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[9/11] Коллекция: Аналитика данных
+    [1/24] Introduction to Data Analytics ... selected (1)
+    [2/24] Data Analysis with Python ... selected (2)
+    [3/24] Data Visualization with Python ... selected (3)
+    [4/24] SQL for Data Science ... selected (4)
+    [5/24] Linear Algebra for Machine Learning and Data Science ... selected (5)
+    [6/24] Calculus for Machine Learning and Data Science ... selected (6)
+    [7/24] Probability & Statistics for Machine Learning & Data Science ... selected (7)
+    [8/24] Advanced Probability and Statistical Methods ... selected (8)
+    [9/24] Foundations: Data, Data, Everywhere ... selected (9)
+    [10/24] Prepare Data for Exploration ... selected (10)
+    [11/24] Process Data from Dirty to Clean ... selected (11)
+    [12/24] Analyze Data to Answer Questions ... selected (12)
+    [13/24] Share Data Through the Art of Visualization ... selected (13)
+    [14/24] Prompt Engineering for ChatGPT ... selected (14)
+    [15/24] ChatGPT Advanced Data Analysis ... selected (15)
+    [16/24] Advanced Data Analysis with ChatGPT ... selected (16)
+    [17/24] Introduction to Data Science in Python ... selected (17)
+    [18/24] Applied Plotting, Charting & Data Representation in Python ... selected (18)
+    [19/24] Applied Machine Learning in Python ... selected (19)
+    [20/24] Applied Text Mining in Python ... selected (20)
+    [21/24] Applied Social Network Analysis in Python ... selected (21)
+    [22/24] Exploratory Data Analysis for Machine Learning ... selected (22)
+    [23/24] Practical Data Wrangling with Pandas ... selected (23)
+    [24/24] Fitting Statistical Models to Data with Python ... selected (24)
+    Подтверждено: 24/24 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[10/11] Коллекция: Кибербезопасность
+    [1/6] Foundations of Cybersecurity ... selected (1)
+    [2/6] Play It Safe: Manage Security Risks ... selected (2)
+    [3/6] Connect and Protect: Networks and Network Security ... selected (3)
+    [4/6] Assets, Threats, and Vulnerabilities ... selected (4)
+    [5/6] Sound the Alarm: Detection and Response ... selected (5)
+    [6/6] Put It to Work: Prepare for Cybersecurity Jobs ... selected (6)
+    Подтверждено: 6/6 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+[11/11] Коллекция: GenAI, ИИ и языковые модели
+    [1/11] Introduction to Artificial Intelligence (AI) ... selected (1)
+    [2/11] Introduction to Artificial Intelligence ... selected (2)
+    [3/11] AI For Everyone ... selected (3)
+    [4/11] Introduction to Large Language Models ... selected (4)
+    [5/11] Foundations of LLMs and Deep Learning for Text Analysis ... selected (5)
+    [6/11] Generative AI and Large Language Models ... selected (6)
+    [7/11] Generative AI with Large Language Models ... selected (7)
+    [8/11] Developing LLM Applications with LangChain ... selected (8)
+    [9/11] Generative AI: Fine-Tuning LLMs and Diffusion Models ... selected (9)
+    [10/11] Building and Fine-Tuning LLM Applications ... selected (10)
+    [11/11] Optimizing and Deploying LLM Systems ... selected (11)
+    Подтверждено: 11/11 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+Перемещение коллекций наверх:
+    GenAI, ИИ и языковые модели ... moved_to_top
+    Кибербезопасность ... ERROR: Коллекция исчезла из списка: Кибербезопасность
+    Аналитика данных ... ERROR: locator.count: Target page, context or browser has been closed
+    Маркетинг ... ERROR: locator.count: Target page, context or browser has been closed
+    Программирование ... ERROR: locator.count: Target page, context or browser has been closed
+    Эконометрика и прикладная эконо ... ERROR: locator.count: Target page, context or browser has been closed
+    Психология ... ERROR: locator.count: Target page, context or browser has been closed
+    Социальные сети и бизнес-сети ... ERROR: locator.count: Target page, context or browser has been closed
+    ACCA и Бухгалтерский учет ... ERROR: locator.count: Target page, context or browser has been closed
+    Практика чтения и письма ... ERROR: locator.count: Target page, context or browser has been closed
+    Иностранные языки ... ERROR: locator.count: Target page, context or browser has been closed
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+
+Итог по строкам Excel: { added: 114 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-24_12-26-12-492\console.txt
+
+FATAL: browserContext.close: Target page, context or browser has been closed
+    at async main (C:\Users\123\Desktop\coursera-bulk-course-adder\create-collections.js:977:3) {
+  log: []
+}

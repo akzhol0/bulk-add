@@ -1,0 +1,37 @@
+﻿Запуск: 22.09.2026, 16:25:37
+Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\Ташкентский государственный транспортный университет_2xlsx.xlsx
+Полные названия: C:\Users\123\Desktop\coursera-bulk-course-adder\collection-names.json
+Страница программы: https://www.coursera.org/o/trial-ministry-of-higher-education-science-and-innovatio/admin/programs/tashkentskii-arkhitekturno-stroitel-nyi-universitet-program-32noy/catalog/collections
+Коллекций: 3
+Курсов в Excel: 7
+Режим: СОЗДАНИЕ КОЛЛЕКЦИЙ
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\console.txt
+
+[1/3] Коллекция: Методология научных исследовани
+    [1/5] Understanding Research Methods ... selected (1)
+    [2/5] Experimental Design Basics ... selected (2)
+    [3/5] Academic Information Seeking ... selected (3)
+    [4/5] Research Question ... selected (4)
+    [5/5] Introduction to Academic Writing ... selected (5)
+    Подтверждено: 5/5 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\report.xlsx
+
+[2/3] Коллекция: Комплексная система обеспечения
+    [1/1] Risk Management and Industrial Safety ... selected (1)
+    Подтверждено: 1/1 | не найдено: 0 | ошибок: 0 | проверка: verified_in_collections_list
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\report.xlsx
+
+[3/3] Коллекция: Математическое моделирование и
+    [1/1] Modelling and Simulation of Mechanical Systems ... NOT FOUND
+Промежуточный отчёт сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\report.xlsx
+
+Перемещение коллекций наверх:
+    Математическое моделирование и ... ERROR: Коллекция не найдена для перемещения: Математическое моделирование и
+    Комплексная система обеспечения ... moved_to_top
+    Методология научных исследовани ... moved_to_top
+Отчёт после сортировки сохранён: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\report.xlsx
+
+Итог по строкам Excel: { added: 6, not_found: 1 }
+Отчёт Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\СОЗДАНИЕ_КОЛЛЕКЦИЙ_2026-09-22_16-25-37-260\console.txt

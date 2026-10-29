@@ -31,6 +31,19 @@ function parseArgs(argv) {
   return opts;
 }
 
+function normalizeCourseNames(value) {
+  const values = Array.isArray(value) ? value : [value];
+  return [...new Set(values
+    .map((item) => String(item ?? '').trim())
+    .filter(Boolean))];
+}
+
+function resolveCourseNames(courseOption, appConfig = config) {
+  if (courseOption) return normalizeCourseNames(courseOption);
+  if (Array.isArray(appConfig.courseNames)) return normalizeCourseNames(appConfig.courseNames);
+  return normalizeCourseNames(appConfig.courseName);
+}
+
 function normalizedTextRegex(text) {
   const parts = text.trim().split(/\s+/).map((part) => part.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   return new RegExp(`^\\s*${parts.join('\\s+')}\\s*$`, 'u');
@@ -393,13 +406,15 @@ async function processProgram(page, program, courseName, dryRun, programState) {
   };
 }
 
-(async () => {
+async function main() {
   const artifacts = createRunArtifacts('addition');
   installConsoleTranscript(artifacts.consoleLogPath);
 
   const opts = parseArgs(process.argv.slice(2));
-  const courseName = (opts.course || config.courseName || '').trim();
-  if (!courseName) throw new Error('Не указано название курса. Используйте --course="Название" или config.json.');
+  const courseNames = resolveCourseNames(opts.course);
+  if (courseNames.length === 0) {
+    throw new Error('Не указаны курсы. Используйте --course="Название" или массив courseNames в config.json.');
+  }
 
   let selectedPrograms = programs;
   if (opts.slugs.length > 0) {
@@ -414,7 +429,8 @@ async function processProgram(page, program, courseName, dryRun, programState) {
   console.log(`Команда: node add-course.js ${process.argv.slice(2).join(' ')}`);
   console.log(`Папка запуска: ${artifacts.runDir}`);
   console.log(`Лог консоли: ${artifacts.consoleLogPath}`);
-  console.log(`Курс: ${courseName}`);
+  console.log(`Курсов к добавлению: ${courseNames.length}`);
+  courseNames.forEach((courseName, index) => console.log(`  ${index + 1}. ${courseName}`));
   console.log(`Коллекция: ${config.targetCollection}`);
   console.log(`Программ к обработке: ${selectedPrograms.length}`);
   console.log(`Режим: ${opts.dryRun ? 'DRY RUN (без добавления)' : 'ДОБАВЛЕНИЕ'}`);
@@ -434,30 +450,44 @@ async function processProgram(page, program, courseName, dryRun, programState) {
   const results = [];
   let fatalAuthError = false;
 
+  programLoop:
   for (let i = 0; i < selectedPrograms.length; i++) {
     const program = selectedPrograms[i];
-    const programState = {};
-    const prefix = `[${i + 1}/${selectedPrograms.length}] ${program.name}`;
-    process.stdout.write(`${prefix} ... `);
+    for (let courseIndex = 0; courseIndex < courseNames.length; courseIndex++) {
+      const courseName = courseNames[courseIndex];
+      const programState = {};
+      const prefix = `[${i + 1}/${selectedPrograms.length}] ${program.name}`
+        + ` | курс [${courseIndex + 1}/${courseNames.length}] ${courseName}`;
+      process.stdout.write(`${prefix} ... `);
 
-    try {
-      const result = await processProgram(page, program, courseName, opts.dryRun, programState);
-      const row = { ...program, ...programState, ...result };
-      results.push(row);
-      console.log(`${result.status}${formatCollectionCourseCounts(row)}`);
-    } catch (error) {
-      const message = error?.message || String(error);
-      const screenshotPath = path.join(
-        artifacts.screenshotsDir,
-        `${String(i + 1).padStart(3, '0')}-${program.slug}-${localStamp()}.png`,
-      );
-      await page.screenshot({ path: screenshotPath, fullPage: true }).catch(() => {});
-      const row = { ...program, ...programState, status: 'error', message, screenshot: screenshotPath };
-      results.push(row);
-      console.log(`ERROR: ${message}${formatCollectionCourseCounts(row)}`);
-      if (/повторный вход|login|auth|signin/i.test(message)) {
-        fatalAuthError = true;
-        break;
+      try {
+        const result = await processProgram(page, program, courseName, opts.dryRun, programState);
+        const row = { ...program, course_name: courseName, ...programState, ...result };
+        results.push(row);
+        console.log(`${result.status}${formatCollectionCourseCounts(row)}`);
+      } catch (error) {
+        const message = error?.message || String(error);
+        const screenshotPath = path.join(
+          artifacts.screenshotsDir,
+          `${String(i + 1).padStart(3, '0')}`
+            + `-${String(courseIndex + 1).padStart(2, '0')}`
+            + `-${program.slug}-${localStamp()}.png`,
+        );
+        await page.screenshot({ path: screenshotPath, fullPage: true }).catch(() => {});
+        const row = {
+          ...program,
+          course_name: courseName,
+          ...programState,
+          status: 'error',
+          message,
+          screenshot: screenshotPath,
+        };
+        results.push(row);
+        console.log(`ERROR: ${message}${formatCollectionCourseCounts(row)}`);
+        if (/повторный вход|login|auth|signin/i.test(message)) {
+          fatalAuthError = true;
+          break programLoop;
+        }
       }
     }
   }
@@ -466,6 +496,7 @@ async function processProgram(page, program, courseName, dryRun, programState) {
     { key: 'name', label: 'Программа', width: 38 },
     { key: 'slug', label: 'Slug', width: 28 },
     { key: 'url', label: 'URL', width: 55 },
+    { key: 'course_name', label: 'Курс', width: 55 },
     { key: 'collection_courses_before', label: 'Курсов до', width: 14 },
     { key: 'collection_courses_after', label: 'Курсов после', width: 16 },
     { key: 'status', label: 'Статус', width: 20 },
@@ -486,7 +517,17 @@ async function processProgram(page, program, courseName, dryRun, programState) {
   if (counts.error) process.exitCode = 1;
 
   await context.close();
-})().catch((error) => {
-  console.error('\nFATAL:', error);
-  process.exitCode = 1;
-});
+}
+
+if (require.main === module) {
+  main().catch((error) => {
+    console.error('\nFATAL:', error);
+    process.exitCode = 1;
+  });
+}
+
+module.exports = {
+  normalizeCourseNames,
+  parseArgs,
+  resolveCourseNames,
+};

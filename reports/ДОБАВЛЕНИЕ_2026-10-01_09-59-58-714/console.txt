@@ -1,0 +1,179 @@
+﻿Запуск: 01.10.2026, 09:59:58
+Команда: node add-course.js 
+Папка запуска: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-10-01_09-59-58-714
+Лог консоли: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-10-01_09-59-58-714\console.txt
+Курс: Основы практики пивоварения
+Коллекция: Қазақстандық университеттердің курстары / Курсы казахстанских вузов
+Программ к обработке: 100
+Режим: ДОБАВЛЕНИЕ
+[1/100] Академия Комитета национальной безопасности ... already_exists | курсов в коллекции: 42
+[2/100] ALT Университет имени Мухамеджана Тынышпаева ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[3/100] Академия гражданской авиации ... already_exists | курсов в коллекции: 42
+[4/100] Алматинский технологический университет ... already_exists | курсов в коллекции: 42
+[5/100] Жезқазған университеті ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[6/100] Казахский университет международных отношений и мировых языков имени Абылай хана ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[7/100] Казахский университет технологии и бизнеса ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[8/100] Казахстанско-Британский технический университет ... already_exists | курсов в коллекции: 42
+[9/100] Международный университет информационных технологий ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[10/100] Maqsut Narikbayev University ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[11/100] Южно-Казахстанская медицинская академия ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[12/100] Гуманитарно-техническая академия ... already_exists | курсов в коллекции: 42
+[13/100] Египетский университет исламской культуры «Нур-Мубарак» ... already_exists | курсов в коллекции: 42
+[14/100] Академия физической культуры и массового спорта ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[15/100] Казахстанский медицинский университет «ВШОЗ» ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[16/100] Кызылординский открытый университет ... already_exists | курсов в коллекции: 42
+[17/100] Кызылординский университет «Болашак» ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[18/100] Университет Нархоз ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[19/100] Жұбанов университеті ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[20/100] Алматинский университет энергетики и связи имени Г.Даукеева ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[21/100] Алтынсарин институты ... ERROR: locator.waitFor: Timeout 20000ms exceeded.
+Call log:
+  - waiting for getByRole('button', { name: /^\s*(?:Confirm\s+selections|Подтвердить\s+выбор\s+элементов)\s*\(\s*1\s*\)\s*$/iu }).first() to be visible
+ | курсов в коллекции: 42
+[22/100] Atyrau University ... already_exists | курсов в коллекции: 42
+[23/100] Атырау мұнай және газ университеті ... success_submitted | курсов: 41 → 42
+[24/100] Шығыс Қазақстан техникалық университеті ... success_submitted | курсов: 41 → 42
+[25/100] Аманжолов университеті ... success_submitted | курсов: 41 → 42
+[26/100] Евразийский национальный университет имени Л.Н. Гумилева ... success_submitted | курсов: 41 → 42
+[27/100] Жетісу университеті ... success_verified | курсов: 41 → 42
+[28/100] Западно-Казахстанский аграрно-технический университет имени Жангир хана ... success_verified | курсов: 41 → 42
+[29/100] Западно-Казахстанский медицинский университет имени М.Оспанова ... success_verified | курсов: 41 → 42
+[30/100] Махамбет университеті ... success_verified | курсов: 41 → 42
+[31/100] Казахская академия спорта и туризма ... success_submitted | курсов: 41 → 42
+[32/100] Казахский агротехнический исследовательский университет имени С.Сейфуллина ... success_submitted | курсов: 41 → 42
+[33/100] Казахский национальный аграрный исследовательский университет ... success_submitted | курсов: 41 → 42
+[34/100] Қазақ ұлттық қыздар педагогикалық университеті ... success_submitted | курсов: 41 → 42
+[35/100] Казахский национальный исследовательский технический университет имени К.И. Сатпаева ... success_submitted | курсов: 41 → 42
+[36/100] Абай университеті ... success_submitted | курсов: 41 → 42
+[37/100] Казахский национальный университет водного хозяйства и ирригации ... success_submitted | курсов: 41 → 42
+[38/100] Казахский национальный университет имени аль-Фараби ... success_submitted | курсов: 41 → 42
+[39/100] Қарағанды индустриялық университеті ... success_submitted | курсов: 41 → 42
+[40/100] Бөкетов атындағы Қарағанды университеті ... success_submitted | курсов: 41 → 42
+[41/100] Карагандинский технический университет имени А. Сагинова ... success_submitted | курсов: 41 → 42
+[42/100] Есенов университеті ... success_submitted | курсов: 41 → 42
+[43/100] Уәлиханов университеті ... success_submitted | курсов: 41 → 42
+[44/100] Байтұрсынов университеті ... success_verified | курсов: 41 → 42
+[45/100] Қорқыт Ата университеті ... success_verified | курсов: 41 → 42
+[46/100] Медицинский университет Астана ... success_submitted | курсов: 41 → 42
+[47/100] Медицинский университет Караганды ... success_submitted | курсов: 41 → 42
+[48/100] Медицинский университет Семей ... success_submitted | курсов: 41 → 42
+[49/100] Международный университет туризма и гостеприимства ... success_submitted | курсов: 41 → 42
+[50/100] Марғұлан университеті ... success_submitted | курсов: 41 → 42
+[51/100] Рудненский индустриальный университет ... success_verified | курсов: 41 → 42
+[52/100] Қозыбаев университеті ... success_verified | курсов: 41 → 42
+[53/100] Дулати университеті ... success_submitted | курсов: 41 → 42
+[54/100] С. Торайғыров атындағы университет ... success_submitted | курсов: 41 → 42
+[55/100] Шәкәрім университеті ... success_submitted | курсов: 41 → 42
+[56/100] Әуезов университеті ... success_submitted | курсов: 41 → 42
+[57/100] ЮКПУ имени Жанибекова ... success_verified | курсов: 41 → 42
+[58/100] Казахстанский университет инновационных и телекоммуникационных систем ... success_submitted | курсов: 41 → 42
+[59/100] Казахстанско-Российский медицинский университет ... success_submitted | курсов: 41 → 42
+[60/100] Казахская национальная академия искусств имени Темирбека Жургенова ... success_submitted | курсов: 41 → 42
+[61/100] Казахская национальная консерватория имени Курмангазы ... success_submitted | курсов: 41 → 42
+[62/100] Казахский национальный университет искусств имени Күләш Байсейтовой ... success_verified | курсов: 41 → 42
+[63/100] Казахская национальная академия хореографии ... success_submitted | курсов: 41 → 42
+[64/100] Astana IT University ... success_verified | курсов: 41 → 42
+[65/100] Евразийский технологический университет ... success_submitted | курсов: 41 → 42
+[66/100] Инновационный Евразийский университет ... ERROR: locator.check: Clicking the checkbox did not change its state
+Call log:
+  - waiting for locator('[data-testid="productTypeDescription:Courses-false"] input[type="checkbox"]')
+    - locator resolved to <input value="" class="cds-578" type="checkbox" data-indeterminate="false" id="cds-react-aria9922107449-:rpm:" aria-labelledby="cds-react-aria9922107449-:rpm:-label-text"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <span>Confirm selections (0)</span> from <div class="css-i6asac">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+    - navigations have finished
+ | курсов в коллекции: 41
+[67/100] Казахстанско-Американский свободный университет ... success_submitted | курсов: 41 → 42
+[68/100] Международная образовательная корпорация ... success_submitted | курсов: 41 → 42
+[69/100] Международный инженерно-технологический университет ... success_submitted | курсов: 41 → 42
+[70/100] Международный университет Астана ... success_submitted | курсов: 41 → 42
+[71/100] Университет имени Ж. Ташенева ... success_verified | курсов: 41 → 42
+[72/100] Университет Кунаева ... success_verified | курсов: 41 → 42
+[73/100] Университет международного бизнеса имени К.Сагадиева ... success_verified | курсов: 41 → 42
+[74/100] Центрально-Азиатский инновационный университет ... success_submitted | курсов: 41 → 42
+[75/100] Алматы Менеджмент Университет ... success_submitted | курсов: 41 → 42
+[76/100] Esil University ... success_submitted | курсов: 41 → 42
+[77/100] Q University ... success_verified | курсов: 41 → 42
+[78/100] SDU University ... success_verified | курсов: 41 → 42
+[79/100] Алматинский гуманитарно-экономический университет ... success_submitted | курсов: 41 → 42
+[80/100] Екибастузский инженерно-технический институт имени К.И. Сатпаева ... success_submitted | курсов: 41 → 42
+[81/100] Казахский автомобильно-дорожный институт имени Л.Б. Гончарова ... success_submitted | курсов: 41 → 42
+[82/100] Кокшетауский университет имени А. Мырзахметова ... success_submitted | курсов: 41 → 42
+[83/100] Костанайский социально-технический университет имени академика Зулхарнай Алдамжар ... success_submitted | курсов: 41 → 42
+[84/100] Международный казахско-турецкий университет имени Х.А.Ясави ... success_submitted | курсов: 41 → 42
+[85/100] Международный Таразский инновационный институт имени Ш.Муртазы ... success_verified | курсов: 41 → 42
+[86/100] Региональный инновационный университет ... success_submitted | курсов: 41 → 42
+[87/100] Университет «Мирас» ... success_submitted | курсов: 41 → 42
+[88/100] Университет «Туран» ... success_submitted | курсов: 41 → 42
+[89/100] Университет «Туран-Астана» ... success_submitted | курсов: 41 → 42
+[90/100] Университет дружбы народов имени академика А. Куатбекова ... success_submitted | курсов: 41 → 42
+[91/100] Евразийский гуманитарный институт имени А.Кусаинова ... success_submitted | курсов: 41 → 42
+[92/100] Alikhan Bokeikhan University ... success_submitted | курсов: 41 → 42
+[93/100] Казахстанско-Немецкий университет в Алматы ... success_verified | курсов: 41 → 42
+[94/100] Каспийский общественный университет ... success_verified | курсов: 41 → 42
+[95/100] Западно-Казахстанский инновационно-технологический университет ... success_verified | курсов: 41 → 42
+[96/100] Академия «Bolashaq» ... success_verified | курсов: 41 → 42
+[97/100] Карагандинский университет Казпотребсоюза ... success_submitted | курсов: 41 → 42
+[98/100] Костанайский инженерно-экономический университет имени М. Дулатова ... success_submitted | курсов: 41 → 42
+[99/100] Центрально-Казахстанская академия ... success_submitted | курсов: 41 → 42
+[100/100] Шымкентский университет ... success_submitted | курсов: 41 → 42
+
+Итог: {
+  already_exists: 8,
+  error: 15,
+  success_submitted: 56,
+  success_verified: 21
+}
+Отчет Excel: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-10-01_09-59-58-714\report.xlsx
+Лог консоли UTF-8: C:\Users\123\Desktop\coursera-bulk-course-adder\reports\ДОБАВЛЕНИЕ_2026-10-01_09-59-58-714\console.txt
